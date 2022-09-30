@@ -207,3 +207,40 @@ body::-webkit-scrollbar-track {
     padding: 1.2em 1em;
   }
 }
+.home {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1920px;
+  position: relative;
+}
+.home__container__content {
+  position: absolute;
+  top: 30%;
+  color: #fff;
+  left: 5%;
+}
+.home__container__heading {
+  font-size: 50px;
+  font-weight: 700;
+  width: 70%;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0.5em;
+}
+.home__container__info {
+  font-size: 20px;
+  font-weight: 500;
+  width: 70%;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 1em;
+}
+.home__container__btn button {
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  background: linear-gradient(180deg, #4bd899 0%, #5378de 100%);
+  padding: 12px 22px;
+  border: none;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
