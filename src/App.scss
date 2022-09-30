@@ -32,8 +32,8 @@ body::-webkit-scrollbar-track {
   background-color: white;
 }
 .header__content {
-  width: 100%;
-  max-width: 1366px;
+  width: 75%;
+  max-width: 1500px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -218,20 +218,20 @@ body::-webkit-scrollbar-track {
   position: absolute;
   top: 20%;
   color: #fff;
-  left: 12%;
+  left: 15%;
 }
 .home__container__heading {
   font-size: 50px;
   font-weight: 700;
   width: 70%;
-  font-family: "Montserrat", sans-serif;
+
   margin-bottom: 0.5em;
 }
 .home__container__info {
   font-size: 20px;
   font-weight: 500;
   width: 70%;
-  font-family: "Montserrat", sans-serif;
+
   margin-bottom: 1em;
 }
 .home__container__btn button {
@@ -248,4 +248,100 @@ body::-webkit-scrollbar-track {
 .home__container__img img {
   width: 100%;
   object-fit: contain;
+}
+.idea {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1366px;
+  position: relative;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  align-items: center;
+  display: flex;
+}
+.idea__content {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 85%;
+}
+.idea__content__logo {
+  // width: 15%;
+  margin: 1em;
+}
+.idea__content__heading {
+  font-size: 40px;
+  width: 50%;
+
+  font-weight: bold;
+  color: #4365c3;
+}
+.idea__content__info {
+  text-align: justify;
+  width: 60%;
+  margin-right: 4em;
+}
+.services {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1920px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5em;
+  position: relative;
+}
+.services__heading {
+  font-size: 65px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.services__background {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.services___Content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 18%;
+}
+.services__card {
+  display: flex;
+  width: 22%;
+  background-color: #fff;
+  padding: 2em;
+  padding-bottom: 3em;
+  border-radius: 15px;
+  color: #000;
+  box-shadow: -2px 22px 43px rgba(14, 14, 14, 0.25);
+  margin: 2em;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+}
+.services__card:hover {
+  background-color: #3bba9c;
+  fill: #000;
+  color: #fff;
+  transition: 300ms ease-in-out;
+}
+.services__card__heading {
+  font-size: 22px;
+  margin-bottom: 0.5em;
+}
+.services__card__svg {
+  padding-top: 1em;
+}
+.services__card__heading__nd__info {
+  padding: 1em;
+}
+.services__card__info {
+  font-size: 17px;
 }
