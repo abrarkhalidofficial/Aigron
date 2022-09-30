@@ -4,7 +4,7 @@ import Homesection from "../assets/home.png";
 function Home() {
   return (
     <>
-      <div className="home">
+      <section className="home">
         <div className="home__container">
           <div className="home__container__img">
             <img src={Homesection} alt="" />
@@ -22,7 +22,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
