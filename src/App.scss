@@ -395,13 +395,13 @@ body::-webkit-scrollbar-track {
   left: 5%;
 }
 .form__content__right {
-  width: 50%;
+  width: 35%;
   background-color: #fff;
-  padding: 2em;
+  padding: 1em;
   position: absolute;
-  top: -15%;
-  left: 45%;
-  box-shadow: -2px 22px 43px rgba(14, 14, 14, 0.25);
+  top: -10%;
+  left: 58%;
+  box-shadow: -2px 22px 43px rgb(14 14 14 / 25%);
   border-radius: 15px;
 }
 .form__content__right__inputs {
@@ -429,9 +429,10 @@ body::-webkit-scrollbar-track {
 }
 .form__content__right__form__input input {
   width: 100%;
-  padding: 1em 3em;
-  color: rgb(241, 232, 232);
+  padding: 10px 10px;
+  color: rgb(180, 175, 175);
   text-align: flex-start;
+  border-radius: 50px;
   // outline: none;
 }
 .form__content__right__form__input :focus {
@@ -798,6 +799,9 @@ body::-webkit-scrollbar-track {
   }
   .expertise__content {
     width: 100%;
+  }
+  .expertise__heading {
+    font-size: 45px;
   }
 }
 @media (max-width: 400px) {
