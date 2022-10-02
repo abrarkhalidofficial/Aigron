@@ -95,9 +95,9 @@ function Home() {
                     width="24.7305"
                     height="18.8743"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -333,7 +333,7 @@ function Home() {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <g clip-path="url(#clip0_35_23)">
+                <g clipPath="url(#clip0_35_23)">
                   <path
                     d="M95.238 59.106L58.821 49.8427L58.3432 50.5904L63.036 58.2855L0 40.8838L0.0327575 40.3743H43.0669L40.3049 35.8486H76.6499C73.5999 28.5108 68.907 23.899 62.2507 21.5832C49.4288 17.1302 37.1239 22.8602 31.5802 35.5641C31.2333 36.3647 30.4545 37.5491 29.8523 37.5888C23.5625 37.7343 17.266 37.6748 10.9565 37.6748C11.8139 25.0238 21.959 9.22336 38.5901 2.83172C55.3587 -3.57978 74.3198 1.17756 86.7752 14.7019C98.6611 27.6374 100.435 47.2755 95.238 59.106Z"
                     fill="#0ED1BB"

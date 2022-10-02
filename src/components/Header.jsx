@@ -43,8 +43,8 @@ export default function Header() {
               fill="#1D1D1D"
             />
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M135.629 20.2324C137.698 20.2324 139.376 18.5549 139.376 16.4857C139.376 14.4165 137.698 12.739 135.629 12.739C133.56 12.739 131.883 14.4165 131.883 16.4857C131.883 18.5549 133.56 20.2324 135.629 20.2324ZM135.629 27.2761C141.589 27.2761 146.42 22.4451 146.42 16.4857C146.42 10.5263 141.589 5.69531 135.629 5.69531C129.67 5.69531 124.839 10.5263 124.839 16.4857C124.839 22.4451 129.67 27.2761 135.629 27.2761Z"
               fill="url(#paint0_linear_5_87)"
             />
@@ -69,8 +69,8 @@ export default function Header() {
                 y2="27.2761"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#0AD8BA" />
-                <stop offset="1" stop-color="#553EC5" />
+                <stop stopColor="#0AD8BA" />
+                <stop offset="1" stopColor="#553EC5" />
               </linearGradient>
             </defs>
           </svg>
