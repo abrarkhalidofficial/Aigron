@@ -143,7 +143,7 @@ export default function Header() {
               )}
             </button>
             <NavLink
-              to="/Login"
+              to="#"
               title="Join Now"
               className="header__content__cta__button"
             >
@@ -249,7 +249,7 @@ export default function Header() {
                     />
                   </svg>
                 }
-                title="Remote Capacity"
+                title=" Dedicated  Team"
                 info="We transform bold business ideas into exceptional digital products. Searching"
               />
               <HeaderOverlayEntry
@@ -315,7 +315,8 @@ export default function Header() {
                     />
                   </svg>
                 }
-                title="Remote Capacity"
+                title="Custom Software
+                Development"
                 info="We transform bold business ideas into exceptional digital products. Searching"
               />
             </div>

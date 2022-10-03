@@ -98,7 +98,7 @@ body::-webkit-scrollbar-track {
 .header__content__cta__button {
   height: 38px;
   padding: 0 2em;
-  background: linear-gradient(180deg, #4bd899 0%, #5378de 100%);
+  background: linear-gradient(180deg, #10cdbb 0%, #4c51c4 100%);
   border: none;
   border-radius: 5px;
   margin-left: 1em;
@@ -203,8 +203,9 @@ body::-webkit-scrollbar-track {
 }
 .header__content__overlay__entry:hover {
   transition: 300ms ease-in-out;
-  background-color: #4365c3;
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+  background: #3bba9c;
+  box-shadow: 8px 13px 18px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
 }
 .header__content__overlay__entry:hover
   .header__content__overlay__entry__icon
@@ -257,6 +258,13 @@ body::-webkit-scrollbar-track {
   border: none;
   transition: 300ms ease-in-out;
   cursor: pointer;
+}
+.home__container__btn button:hover {
+  transition: 300ms ease-in-out;
+  background-color: #fff;
+  color: rgb(39, 39, 39) !important;
+
+  font-weight: bold;
 }
 .home__container__img img {
   width: 100%;
@@ -366,6 +374,7 @@ body::-webkit-scrollbar-track {
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 .expertise__heading {
   position: absolute;
@@ -401,6 +410,7 @@ body::-webkit-scrollbar-track {
   margin: 2em;
   cursor: pointer;
   transition: 300ms ease-in-out;
+  text-align: center;
 }
 .expertise__content__card__svg__two {
   display: none;
@@ -818,6 +828,7 @@ body::-webkit-scrollbar-track {
   margin-top: 6em;
   // margin-bottom: 4em;
   position: relative;
+  // overflow: hidden;
 }
 .form__img img {
   width: 100%;
@@ -907,6 +918,7 @@ body::-webkit-scrollbar-track {
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
   // margin-top: 6em;
 }
 
@@ -993,6 +1005,12 @@ body::-webkit-scrollbar-track {
   }
 }
 
+@media (max-width: 1320px) {
+  .form__content__right__form__heading {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 1250px) {
   .home__container__heading {
     font-size: 36px;
@@ -1025,6 +1043,9 @@ body::-webkit-scrollbar-track {
   }
   .footer__right__input__button input {
     padding: 1em 2em;
+  }
+  .form__content__right {
+    width: 40%;
   }
 }
 @media (max-width: 1150px) {
@@ -1066,6 +1087,9 @@ body::-webkit-scrollbar-track {
   }
   .footer__right__heading__and__tags {
     margin-left: 2em;
+  }
+  .form__content__right {
+    width: 46%;
   }
 }
 @media (max-width: 1000px) {
@@ -1136,6 +1160,16 @@ body::-webkit-scrollbar-track {
   }
   .idea__content__info {
     width: 65%;
+  }
+  .form__content__right__inputs {
+    display: contents;
+  }
+  .form__content__right {
+    // padding: 2em;
+    padding-right: 3em;
+  }
+  .form__content__heading {
+    font-size: 50px;
   }
 }
 @media (max-width: 860px) {
@@ -1221,6 +1255,24 @@ body::-webkit-scrollbar-track {
   .footer__right__heading__and__tags {
     margin-left: 0;
   }
+  .form__img img {
+    display: none;
+  }
+  .form__content__right {
+    position: relative;
+  }
+  .form__content__heading {
+    color: #000;
+  }
+  .form__content__left {
+    display: none;
+  }
+  .form__content__right {
+    // position: absolute;
+    width: 90%;
+    left: 5%;
+    margin-bottom: 2em;
+  }
 }
 @media (max-width: 600px) {
   .home__container__heading {
@@ -1273,8 +1325,9 @@ body::-webkit-scrollbar-track {
     width: 85%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    // align-items: center;
     background-color: #000;
+    padding-left: 1.5em;
   }
   .footer__right__heading__and__tags {
     padding: 0;
@@ -1348,6 +1401,15 @@ body::-webkit-scrollbar-track {
   .expertise__heading {
     font-size: 45px;
   }
+  .office__content__heading {
+    font-size: 45px;
+  }
+  .expertise__content__card:hover {
+    scale: 1.1;
+  }
+  .footer__right__heading__and__tags {
+    width: 70%;
+  }
 }
 @media (max-width: 400px) {
   .idea__content__heading {
@@ -1358,7 +1420,10 @@ body::-webkit-scrollbar-track {
   }
   .footer__right__input__button button {
     position: absolute;
-    right: 18%;
+    right: -15%;
     margin-top: 3px;
+  }
+  .form__content__right__form__input input {
+    font-size: 13px;
   }
 }

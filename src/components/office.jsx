@@ -1,4 +1,4 @@
-import someSvg from "../assets/someSvg.svg";
+import officesvg from "../assets/officesome.svg";
 
 export function office() {
   return (
@@ -6,7 +6,7 @@ export function office() {
       <div className="office__content__heading">Our Office</div>
       <div className="office__content">
         <div className="office__content__svg">
-          <img src={someSvg} alt="some svg" />
+          <img src={officesvg} alt="some svg" />
         </div>
         <div className="office__content__button">
           <button className="office__content__button__one">
