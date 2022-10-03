@@ -38,8 +38,7 @@ body::-webkit-scrollbar-track {
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 2em 2em;
-  padding-bottom: 3em;
+  padding: 2em;
 }
 .header__content__logo {
   display: flex;
@@ -72,7 +71,7 @@ body::-webkit-scrollbar-track {
 .header__content__nav__link {
   padding: 0 1em;
   height: 38px;
-  font-size: 20px;
+  font-size: 16px;
   color: #000;
   text-decoration: none;
   display: flex;
@@ -164,6 +163,64 @@ body::-webkit-scrollbar-track {
 //  background-color: #6fa66b;
 //}
 
+.header__content__overlay {
+  position: absolute;
+  top: 6em;
+  left: 0px;
+  width: 100%;
+  z-index: 9999;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.header__content__overlay__content {
+  width: 100%;
+  max-width: 1500px;
+  padding: 5em 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0em auto;
+}
+.header__content__overlay__entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  width: 100%;
+  max-width: 300px;
+  padding: 2em;
+  margin: 1em;
+  text-align: center;
+}
+.header__content__overlay__entry__heading {
+  margin: 1em 0em;
+  color: black;
+  font-weight: bold;
+}
+.header__content__overlay__entry__info {
+  font-size: 14px;
+  color: white;
+  opacity: 0;
+}
+.header__content__overlay__entry:hover {
+  transition: 300ms ease-in-out;
+  background-color: #4365c3;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+}
+.header__content__overlay__entry:hover
+  .header__content__overlay__entry__icon
+  * {
+  transition: 300ms ease-in-out;
+  fill: white;
+}
+.header__content__overlay__entry:hover
+  .header__content__overlay__entry__heading {
+  transition: 300ms ease-in-out;
+  color: white;
+}
+.header__content__overlay__entry:hover .header__content__overlay__entry__info {
+  transition: 300ms ease-in-out;
+  opacity: 1;
+}
 .home {
   width: 100%;
   margin: 0 auto;
@@ -214,6 +271,7 @@ body::-webkit-scrollbar-track {
   padding-bottom: 6em;
   align-items: center;
   display: flex;
+  overflow: hidden;
 }
 .idea__content {
   position: absolute;
@@ -247,6 +305,7 @@ body::-webkit-scrollbar-track {
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 .services__heading {
   font-size: 58px;
@@ -380,6 +439,7 @@ body::-webkit-scrollbar-track {
   margin-top: 6em;
   margin-bottom: 4em;
   position: relative;
+  overflow: hidden;
 }
 
 .office__content__heading {
@@ -1009,6 +1069,12 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 1000px) {
+  .header__content__overlay {
+    height: 100vh;
+  }
+  .header__content__overlay__content {
+    flex-direction: column;
+  }
   .header__content__menu {
     display: flex;
   }
@@ -1165,6 +1231,9 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 500px) {
+  .header__content__overlay {
+    top: 5em;
+  }
   .home__container__heading {
     width: 75%;
     font-size: 30px;
