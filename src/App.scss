@@ -177,7 +177,7 @@ body::-webkit-scrollbar-track {
   left: 15%;
 }
 .home__container__heading {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 700;
   width: 70%;
 
@@ -229,7 +229,7 @@ body::-webkit-scrollbar-track {
   margin: 1em;
 }
 .idea__content__heading {
-  font-size: 40px;
+  font-size: 38px;
   width: 50%;
 
   font-weight: bold;
@@ -249,7 +249,7 @@ body::-webkit-scrollbar-track {
   position: relative;
 }
 .services__heading {
-  font-size: 65px;
+  font-size: 58px;
   font-weight: bold;
   color: #000;
   text-align: center;
@@ -312,7 +312,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   top: 15%;
   left: 40%;
-  font-size: 65px;
+  font-size: 58px;
   font-weight: bold;
   color: #fff;
   text-align: center;
@@ -407,7 +407,6 @@ body::-webkit-scrollbar-track {
   // opacity: 0.25;
   border: none;
 }
-
 .office__content__button__two {
   width: 80px;
   height: 80px;
@@ -529,6 +528,178 @@ body::-webkit-scrollbar-track {
   padding: 2em;
   border-radius: 10px;
 }
+
+.office__content__button__four__content {
+  display: none;
+  margin-left: 4em;
+  position: absolute;
+  top: 1%;
+  background-color: #5048c4;
+  height: 130px;
+  width: 250px;
+  padding: 2em;
+  border-radius: 10px;
+}
+.office__content__button__four {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  left: 55%;
+  background: rgba(7, 17, 243, 0.25);
+  // opacity: 0.25;
+  border: none;
+}
+.office__content__button__one__four {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  opacity: 100;
+  background-color: #5048c4;
+  border: 1px solid#5048C4;
+}
+.office__content__button__four__content__heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-align: start;
+  margin-bottom: 1em;
+}
+.office__content__button__four__content__info {
+  font-size: 15px;
+  color: #fff;
+  text-align: start;
+  margin-bottom: 1em;
+}
+.office__content__button__four__content {
+  display: none;
+  margin-left: 4em;
+  position: absolute;
+  top: 1%;
+  background-color: #5048c4;
+  height: 130px;
+  width: 250px;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.office__content__button__five__content {
+  display: none;
+  margin-left: 4em;
+  position: absolute;
+  top: 1%;
+  background-color: #5048c4;
+  height: 130px;
+  width: 250px;
+  padding: 2em;
+  border-radius: 10px;
+}
+.office__content__button__five {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  background: rgba(7, 17, 243, 0.25);
+  // opacity: 0.25;
+  border: none;
+}
+.office__content__button__one__five {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  opacity: 100;
+  background-color: #5048c4;
+  border: 1px solid#5048C4;
+}
+.office__content__button__five__content__heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-align: start;
+  margin-bottom: 1em;
+}
+.office__content__button__five__content__info {
+  font-size: 15px;
+  color: #fff;
+  text-align: start;
+  margin-bottom: 1em;
+}
+.office__content__button__five__content {
+  display: none;
+  margin-left: 4em;
+  position: absolute;
+  top: 1%;
+  background-color: #5048c4;
+  height: 130px;
+  width: 250px;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.office__content__button__six__content {
+  display: none;
+  margin-left: 4em;
+  position: absolute;
+  top: 1%;
+  background-color: #5048c4;
+  height: 130px;
+  width: 250px;
+  padding: 2em;
+  border-radius: 10px;
+}
+.office__content__button__six {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  background: rgba(7, 17, 243, 0.25);
+  // opacity: 0.25;
+  border: none;
+}
+.office__content__button__one__six {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  opacity: 100;
+  background-color: #5048c4;
+  border: 1px solid#5048C4;
+}
+.office__content__button__six__content__heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-align: start;
+  margin-bottom: 1em;
+}
+.office__content__button__six__content__info {
+  font-size: 15px;
+  color: #fff;
+  text-align: start;
+  margin-bottom: 1em;
+}
+.office__content__button__six__content {
+  display: none;
+  margin-left: 4em;
+  position: absolute;
+  top: 1%;
+  background-color: #5048c4;
+  height: 130px;
+  width: 250px;
+  padding: 2em;
+  border-radius: 10px;
+}
+
 .office__content__button__one:hover .office__content__button__one__content {
   display: inline;
 }
@@ -538,6 +709,15 @@ body::-webkit-scrollbar-track {
 .office__content__button__three:hover .office__content__button__three__content {
   display: inline;
 }
+.office__content__button__four:hover .office__content__button__four__content {
+  display: inline;
+}
+.office__content__button__five:hover .office__content__button__five__content {
+  display: inline;
+}
+.office__content__button__six:hover .office__content__button__six__content {
+  display: inline;
+}
 .office__content__button__one:hover {
   background: rgba(69, 238, 219, 0.42);
 }
@@ -545,6 +725,15 @@ body::-webkit-scrollbar-track {
   background: rgba(69, 238, 219, 0.42);
 }
 .office__content__button__three:hover {
+  background: rgba(69, 238, 219, 0.42);
+}
+.office__content__button__four:hover {
+  background: rgba(69, 238, 219, 0.42);
+}
+.office__content__button__five:hover {
+  background: rgba(69, 238, 219, 0.42);
+}
+.office__content__button__six:hover {
   background: rgba(69, 238, 219, 0.42);
 }
 // .office__content__button__one__one:hover {

@@ -6548,6 +6548,45 @@ export function office() {
               </div>
             </button>
           </button>
+          <button className="office__content__button__four">
+            <button className="office__content__button__one__four">
+              {" "}
+              <div className="office__content__button__four__content">
+                <div className="office__content__button__four__content__heading">
+                  Pakistan Office
+                </div>
+                <div className="office__content__button__four__content__info">
+                  +92 0554 6768865 <br /> Main Gulburg Road, Lahore
+                </div>
+              </div>
+            </button>
+          </button>
+          <button className="office__content__button__five">
+            <button className="office__content__button__one__five">
+              {" "}
+              <div className="office__content__button__five__content">
+                <div className="office__content__button__five__content__heading">
+                  Pakistan Office
+                </div>
+                <div className="office__content__button__five__content__info">
+                  +92 0554 6768865 <br /> Main Gulburg Road, Lahore
+                </div>
+              </div>
+            </button>
+          </button>
+          <button className="office__content__button__six">
+            <button className="office__content__button__one__six">
+              {" "}
+              <div className="office__content__button__six__content">
+                <div className="office__content__button__six__content__heading">
+                  Pakistan Office
+                </div>
+                <div className="office__content__button__six__content__info">
+                  +92 0554 6768865 <br /> Main Gulburg Road, Lahore
+                </div>
+              </div>
+            </button>
+          </button>
         </div>
       </div>
     </section>
