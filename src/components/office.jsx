@@ -26,7 +26,7 @@ export function office() {
               {" "}
               <div className="office__content__button__two__content">
                 <div className="office__content__button__two__content__heading">
-                  Pakistan Office
+                  Romania Office
                 </div>
                 <div className="office__content__button__two__content__info">
                   +92 0554 6768865 <br /> Main Gulburg Road, Lahore
@@ -39,7 +39,7 @@ export function office() {
               {" "}
               <div className="office__content__button__three__content">
                 <div className="office__content__button__three__content__heading">
-                  Pakistan Office
+                  Netherlands Office
                 </div>
                 <div className="office__content__button__three__content__info">
                   +92 0554 6768865 <br /> Main Gulburg Road, Lahore
@@ -52,7 +52,7 @@ export function office() {
               {" "}
               <div className="office__content__button__four__content">
                 <div className="office__content__button__four__content__heading">
-                  Pakistan Office
+                  Kuwait Office
                 </div>
                 <div className="office__content__button__four__content__info">
                   +92 0554 6768865 <br /> Main Gulburg Road, Lahore
@@ -65,7 +65,7 @@ export function office() {
               {" "}
               <div className="office__content__button__five__content">
                 <div className="office__content__button__five__content__heading">
-                  Pakistan Office
+                  Germany Office
                 </div>
                 <div className="office__content__button__five__content__info">
                   +92 0554 6768865 <br /> Main Gulburg Road, Lahore
@@ -78,7 +78,7 @@ export function office() {
               {" "}
               <div className="office__content__button__six__content">
                 <div className="office__content__button__six__content__heading">
-                  Pakistan Office
+                  Singapore Office
                 </div>
                 <div className="office__content__button__six__content__info">
                   +92 0554 6768865 <br /> Main Gulburg Road, Lahore

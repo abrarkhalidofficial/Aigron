@@ -108,8 +108,8 @@ export function form(value, setValue) {
           <div
             className="form__content__right__button"
             data-aos="fade-up"
-            data-aos-delay="80"
-            data-aos-duration="1600"
+            data-aos-delay="60"
+            data-aos-duration="1400"
           >
             <button>Submit</button>
           </div>
