@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ClickAwayListener from "react-click-away-listener";
-import { NavLink } from "react-router-dom";
-import { Menu, X } from "react-feather";
 import { HeaderOverlayEntry } from "./HeaderOverlayEntry";
+import { Menu, X } from "react-feather";
 
 export default function Header() {
   const [isOverlayOpen, setIsOverlayOpen] = useState(false);
@@ -34,7 +33,7 @@ export default function Header() {
         }
       >
         <div className="header__content">
-          <NavLink to="/" className="header__content__logo">
+          <a href="/" className="header__content__logo">
             <svg
               width="174"
               height="43"
@@ -78,7 +77,7 @@ export default function Header() {
                 </linearGradient>
               </defs>
             </svg>
-          </NavLink>
+          </a>
           {isOpen ? (
             <ClickAwayListener
               onClickAway={() => {
@@ -88,8 +87,8 @@ export default function Header() {
               }}
             >
               <div className="header__content__nav">
-                <NavLink
-                  to="/#"
+                <a
+                  href="/#"
                   activeclassname="active"
                   className="header__content__nav__link"
                   onClick={() => {
@@ -100,9 +99,9 @@ export default function Header() {
                   }}
                 >
                   Services
-                </NavLink>
-                <NavLink
-                  to="/#"
+                </a>
+                <a
+                  href="/#"
                   activeclassname="active"
                   className="header__content__nav__link"
                   onClick={() => {
@@ -113,9 +112,9 @@ export default function Header() {
                   }}
                 >
                   Expertise
-                </NavLink>
-                <NavLink
-                  to="/#"
+                </a>
+                <a
+                  href="/#"
                   activeclassname="active"
                   className="header__content__nav__link"
                   onClick={() => {
@@ -126,7 +125,7 @@ export default function Header() {
                   }}
                 >
                   Company
-                </NavLink>
+                </a>
               </div>
             </ClickAwayListener>
           ) : null}
@@ -145,13 +144,13 @@ export default function Header() {
                 <Menu size={20} color="currentColor" />
               )}
             </button>
-            <NavLink
-              to="#"
+            <a
+              href="#"
               title="Join Now"
               className="header__content__cta__button"
             >
               Get in Touch
-            </NavLink>
+            </a>
           </div>
         </div>
       </div>

@@ -9,6 +9,7 @@ import { ContactSection } from "./components/ContactSection";
 import { Footer } from "./components/Footer";
 
 import "./App.scss";
+import "aos/dist/aos.css";
 import "react-phone-number-input/style.css";
 
 function App() {
