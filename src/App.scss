@@ -113,6 +113,17 @@ body::-webkit-scrollbar-track {
   width: 100%;
   z-index: 9999;
   background-color: rgba(255, 255, 255, 0.95);
+  animation: header__content__overlay__animation 500ms both;
+}
+@keyframes header__content__overlay__animation {
+  from {
+    opacity: 0;
+    top: 5em;
+  }
+  to {
+    opacity: 1;
+    top: 6em;
+  }
 }
 .header__content__overlay__content {
   width: 100%;
@@ -258,7 +269,7 @@ body::-webkit-scrollbar-track {
   overflow: hidden;
 }
 .services__heading {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   color: #000;
   text-align: center;
@@ -328,7 +339,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   top: 15%;
   left: 42%;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   color: #fff;
   text-align: center;
@@ -399,7 +410,7 @@ body::-webkit-scrollbar-track {
 }
 
 .office__content__heading {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   color: #000;
   text-align: center;
@@ -1031,7 +1042,8 @@ body::-webkit-scrollbar-track {
 }
 @media (max-width: 1000px) {
   .header__content__overlay {
-    height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 5em;
   }
   .header__content__overlay__content {
     flex-direction: column;
@@ -1106,7 +1118,7 @@ body::-webkit-scrollbar-track {
     padding-right: 3em;
   }
   .form__content__heading {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 @media (max-width: 860px) {
