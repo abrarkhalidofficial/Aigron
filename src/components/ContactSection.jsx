@@ -9,23 +9,11 @@ export function ContactSection() {
       </div>
       <div className="form__content">
         <div className="form__content__left">
-          <div
-            className="form__content__heading"
-            data-aos="fade-up"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-          >
-            Get in touch
-          </div>
+          <div className="form__content__heading">Get in touch</div>
         </div>
         <div className="form__content__right">
           <div className="form__content__right__heading">Let’s Talk</div>
-          <div
-            className="form__content__right__inputs"
-            data-aos="fade-up"
-            data-aos-delay="60"
-            data-aos-duration="1400"
-          >
+          <div className="form__content__right__inputs">
             <div className="form__content__right__form">
               <div className="form__content__right__form__heading">Name</div>
               <div className="form__content__right__form__input">
@@ -41,12 +29,7 @@ export function ContactSection() {
               </div>
             </div>
           </div>
-          <div
-            className="form__content__right__inputs"
-            data-aos="fade-up"
-            data-aos-delay="60"
-            data-aos-duration="1400"
-          >
+          <div className="form__content__right__inputs">
             <div className="form__content__right__form">
               <div className="form__content__right__form__heading">Email*</div>
               <div className="form__content__right__form__input">
@@ -73,12 +56,7 @@ export function ContactSection() {
               </div>
             </div>
           </div>
-          <div
-            className="form__content__right__inputs"
-            data-aos="fade-up"
-            data-aos-delay="60"
-            data-aos-duration="1400"
-          >
+          <div className="form__content__right__inputs">
             <div className="form__content__right__form">
               <div className="form__content__right__form__heading">Subject</div>
               <div className="form__content__right__form__input">
@@ -86,12 +64,7 @@ export function ContactSection() {
               </div>
             </div>
           </div>
-          <div
-            className="form__content__right__inputs"
-            data-aos="fade-up"
-            data-aos-delay="60"
-            data-aos-duration="1400"
-          >
+          <div className="form__content__right__inputs">
             <div className="form__content__right__form">
               <div className="form__content__right__form__heading">
                 How Can We help You ?
@@ -106,12 +79,7 @@ export function ContactSection() {
               </div>
             </div>
           </div>
-          <div
-            className="form__content__right__button"
-            data-aos="fade-up"
-            data-aos-delay="60"
-            data-aos-duration="1400"
-          >
+          <div className="form__content__right__button">
             <button>Submit</button>
           </div>
         </div>

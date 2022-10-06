@@ -1,4 +1,3 @@
-import AOS from "aos";
 import Header from "./components/Header";
 import { HomeSection } from "./components/HomeSection";
 import { IdeaSection } from "./components/IdeaSection";
@@ -9,11 +8,9 @@ import { ContactSection } from "./components/ContactSection";
 import { Footer } from "./components/Footer";
 
 import "./App.scss";
-import "aos/dist/aos.css";
 import "react-phone-number-input/style.css";
 
 function App() {
-  AOS.init();
   return (
     <>
       <Header />

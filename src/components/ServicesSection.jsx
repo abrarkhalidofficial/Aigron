@@ -3,30 +3,13 @@ import servicesbackground from "../assets/services-background.png";
 export function ServicesSection() {
   return (
     <section className="services">
-      <div
-        className="services__heading"
-        data-aos="fade-up"
-        data-aos-delay="70"
-        data-aos-duration="1500"
-      >
-        Services
-      </div>
+      <div className="services__heading">Services</div>
       <div className="services__background">
         <img src={servicesbackground} alt="servicesbackground" />
       </div>
       <div className="services___Content">
-        <div
-          className="services__card"
-          data-aos="fade-up"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-        >
-          <div
-            className="services__card__svg"
-            data-aos="fade-up"
-            data-aos-delay="70"
-            data-aos-duration="1500"
-          >
+        <div className="services__card">
+          <div className="services__card__svg">
             <svg
               width="61"
               height="55"
@@ -92,38 +75,16 @@ export function ServicesSection() {
             </svg>
           </div>
           <div className="services__card__heading__nd__info">
-            <div
-              className="services__card__heading"
-              data-aos="fade-up"
-              data-aos-delay="70"
-              data-aos-duration="1500"
-            >
-              Custom Development
-            </div>
-            <div
-              className="services__card__info"
-              data-aos="fade-up"
-              data-aos-delay="80"
-              data-aos-duration="1700"
-            >
+            <div className="services__card__heading">Custom Development</div>
+            <div className="services__card__info">
               We transform bold business ideas into exceptional digital
               products. Searching you’ve come to the right place. We offer 360°
               services.
             </div>
           </div>
         </div>
-        <div
-          className="services__card"
-          data-aos="fade-up"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-        >
-          <div
-            className="services__card__svg"
-            data-aos="fade-up"
-            data-aos-delay="70"
-            data-aos-duration="1500"
-          >
+        <div className="services__card">
+          <div className="services__card__svg">
             <svg
               width="57"
               height="41"
@@ -146,38 +107,16 @@ export function ServicesSection() {
             </svg>
           </div>
           <div className="services__card__heading__nd__info">
-            <div
-              className="services__card__heading"
-              data-aos="fade-up"
-              data-aos-delay="70"
-              data-aos-duration="1500"
-            >
-              Dedicated Staff
-            </div>
-            <div
-              className="services__card__info"
-              data-aos="fade-up"
-              data-aos-delay="80"
-              data-aos-duration="1700"
-            >
+            <div className="services__card__heading">Dedicated Staff</div>
+            <div className="services__card__info">
               We transform bold business ideas into exceptional digital
               products. Searching you’ve come to the right place. We offer 360°
               services.
             </div>
           </div>
         </div>
-        <div
-          className="services__card"
-          data-aos="fade-up"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-        >
-          <div
-            className="services__card__svg"
-            data-aos="fade-up"
-            data-aos-delay="70"
-            data-aos-duration="1500"
-          >
+        <div className="services__card">
+          <div className="services__card__svg">
             <svg
               width="52"
               height="53"
@@ -240,20 +179,8 @@ export function ServicesSection() {
             </svg>
           </div>
           <div className="services__card__heading__nd__info">
-            <div
-              className="services__card__heading"
-              data-aos="fade-up"
-              data-aos-delay="70"
-              data-aos-duration="1500"
-            >
-              Recruitment
-            </div>
-            <div
-              className="services__card__info"
-              data-aos="fade-up"
-              data-aos-delay="80"
-              data-aos-duration="1700"
-            >
+            <div className="services__card__heading">Recruitment</div>
+            <div className="services__card__info">
               We transform bold business ideas into exceptional digital
               products. Searching you’ve come to the right place. We offer 360°
               services.

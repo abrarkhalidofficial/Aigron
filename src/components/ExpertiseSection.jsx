@@ -6,22 +6,10 @@ export function ExpertiseSection() {
       <div className="expertise__img">
         <img src={expertisesection} alt="expertisesection" />
       </div>
-      <div
-        className="expertise__heading"
-        data-aos="fade-up"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-      >
-        Expertise
-      </div>
+      <div className="expertise__heading">Expertise</div>
       <div className="expertise__content">
         <div className="expertise__content__card">
-          <div
-            className="expertise__content__card__svg"
-            data-aos="fade-up"
-            data-aos-delay="70"
-            data-aos-duration="1500"
-          >
+          <div className="expertise__content__card__svg">
             <svg
               width="71"
               height="71"
@@ -66,22 +54,12 @@ export function ExpertiseSection() {
             </svg>
           </div>
 
-          <div
-            className="expertise__content__card__heading"
-            data-aos="fade-up"
-            data-aos-delay="80"
-            data-aos-duration="1700"
-          >
+          <div className="expertise__content__card__heading">
             Artificial Intelligence
           </div>
         </div>
         <div className="expertise__content__card">
-          <div
-            className="expertise__content__card__svg"
-            data-aos="fade-up"
-            data-aos-delay="70"
-            data-aos-duration="1500"
-          >
+          <div className="expertise__content__card__svg">
             <svg
               width="75"
               height="75"
@@ -133,22 +111,10 @@ export function ExpertiseSection() {
               />
             </svg>
           </div>
-          <div
-            className="expertise__content__card__heading"
-            data-aos="fade-up"
-            data-aos-delay="80"
-            data-aos-duration="1700"
-          >
-            AR & VR
-          </div>
+          <div className="expertise__content__card__heading">AR & VR</div>
         </div>
         <div className="expertise__content__card">
-          <div
-            className="expertise__content__card__svg"
-            data-aos="fade-up"
-            data-aos-delay="70"
-            data-aos-duration="1500"
-          >
+          <div className="expertise__content__card__svg">
             <svg
               width="88"
               height="75"
@@ -184,22 +150,10 @@ export function ExpertiseSection() {
               />
             </svg>
           </div>
-          <div
-            className="expertise__content__card__heading"
-            data-aos="fade-up"
-            data-aos-delay="80"
-            data-aos-duration="1700"
-          >
-            E-Security
-          </div>
+          <div className="expertise__content__card__heading">E-Security</div>
         </div>
         <div className="expertise__content__card">
-          <div
-            className="expertise__content__card__svg"
-            data-aos="fade-up"
-            data-aos-delay="70"
-            data-aos-duration="1500"
-          >
+          <div className="expertise__content__card__svg">
             <svg
               width="98"
               height="89"
@@ -242,22 +196,10 @@ export function ExpertiseSection() {
               />
             </svg>
           </div>
-          <div
-            className="expertise__content__card__heading"
-            data-aos="fade-up"
-            data-aos-delay="80"
-            data-aos-duration="1700"
-          >
-            E-Energy
-          </div>
+          <div className="expertise__content__card__heading">E-Energy</div>
         </div>
         <div className="expertise__content__card">
-          <div
-            className="expertise__content__card__svg"
-            data-aos="fade-up"
-            data-aos-delay="70"
-            data-aos-duration="1500"
-          >
+          <div className="expertise__content__card__svg">
             <svg
               width="57"
               height="58"
@@ -317,14 +259,7 @@ export function ExpertiseSection() {
               />
             </svg>
           </div>
-          <div
-            className="expertise__content__card__heading"
-            data-aos="fade-up"
-            data-aos-delay="80"
-            data-aos-duration="1700"
-          >
-            Data
-          </div>
+          <div className="expertise__content__card__heading">Data</div>
         </div>
       </div>
     </section>

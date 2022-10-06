@@ -8,28 +8,13 @@ export function Footer() {
         <img src={footerbackground} alt="footerbackground" />
       </div>
       <div className="footer__content">
-        <div
-          className="footer__left"
-          data-aos="fade-up"
-          data-aos-delay="60"
-          data-aos-duration="1400"
-        >
+        <div className="footer__left">
           <div className="footer__left__img">
             <img src={footerleft} alt="footerleft" />
           </div>
         </div>
-        <div
-          className="footer__right"
-          data-aos="fade-up"
-          data-aos-delay="60"
-          data-aos-duration="1400"
-        >
-          <div
-            className="footer__right__heading__and__tags"
-            data-aos="fade-up"
-            data-aos-delay="70"
-            data-aos-duration="1600"
-          >
+        <div className="footer__right">
+          <div className="footer__right__heading__and__tags">
             <div className="footer__right__heading">Contact</div>
             <div className="footer__right__span"></div>
             <div className="footer__right__all__tags">
@@ -44,12 +29,7 @@ export function Footer() {
               </div>
             </div>
           </div>
-          <div
-            className="footer__right__heading__and__tags"
-            data-aos="fade-up"
-            data-aos-delay="70"
-            data-aos-duration="1600"
-          >
+          <div className="footer__right__heading__and__tags">
             <div className="footer__right__heading">Social</div>
             <div className="footer__right__span"></div>
             <div className="footer__right__all__tags">
@@ -64,12 +44,7 @@ export function Footer() {
               </div>
             </div>
           </div>
-          <div
-            className="footer__right__heading__and__tags"
-            data-aos="fade-up"
-            data-aos-delay="70"
-            data-aos-duration="1600"
-          >
+          <div className="footer__right__heading__and__tags">
             <div className="footer__right__heading">Pages</div>
             <div className="footer__right__span"></div>
             <div className="footer__right__all__tags">
@@ -84,12 +59,7 @@ export function Footer() {
               </div>
             </div>
           </div>
-          <div
-            className="footer__right__heading__and__tags"
-            data-aos="fade-up"
-            data-aos-delay="70"
-            data-aos-duration="1600"
-          >
+          <div className="footer__right__heading__and__tags">
             <div className="footer__right__heading">
               Subscribe to Newsletter
             </div>
