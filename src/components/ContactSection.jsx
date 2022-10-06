@@ -1,7 +1,7 @@
 import formbackground from "../assets/form-background.png";
 import PhoneInput from "react-phone-number-input";
 
-export function form(value, setValue) {
+export function ContactSection() {
   return (
     <section className="form">
       <div className="form__img">
@@ -66,8 +66,9 @@ export function form(value, setValue) {
                 <PhoneInput
                   international
                   defaultCountry="RU"
-                  value={value}
-                  onChange={setValue}
+                  onChange={(e) => {
+                    console.log(e);
+                  }}
                 />
               </div>
             </div>

@@ -1,6 +1,6 @@
 import officesvg from "../assets/officesome.svg";
 
-export function office() {
+export function OfficeSection() {
   return (
     <section className="office">
       <div className="office__content__heading">Our Office</div>

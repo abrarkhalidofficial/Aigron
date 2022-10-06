@@ -1,7 +1,7 @@
 import Ideasection from "../assets/idea.png";
 import Idealogo from "../assets/idea-logo.png";
 
-export function idea() {
+export function IdeaSection() {
   return (
     <section className="idea">
       <div className="idea__img">

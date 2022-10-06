@@ -1,7 +1,7 @@
 import footerleft from "../assets/footer-left.png";
 import footerbackground from "../assets/footer-background.png";
 
-export function footer() {
+export function Footer() {
   return (
     <section className="footer">
       <div className="footer__background">

@@ -1,6 +1,6 @@
 import servicesbackground from "../assets/services-background.png";
 
-export function services() {
+export function ServicesSection() {
   return (
     <section className="services">
       <div

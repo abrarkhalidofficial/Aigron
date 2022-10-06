@@ -1,6 +1,6 @@
 import Homesection from "../assets/home.png";
 
-export function home() {
+export function HomeSection() {
   return (
     <section className="home">
       <div className="home__container">

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import ClickAwayListener from "react-click-away-listener";
 import { NavLink } from "react-router-dom";
 import { Menu, X } from "react-feather";
+import { HeaderOverlayEntry } from "./HeaderOverlayEntry";
 
 export default function Header() {
   const [isOverlayOpen, setIsOverlayOpen] = useState(false);
@@ -332,15 +333,5 @@ export default function Header() {
         </ClickAwayListener>
       ) : null}
     </>
-  );
-}
-
-function HeaderOverlayEntry({ icon, info, title }) {
-  return (
-    <div className="header__content__overlay__entry">
-      <div className="header__content__overlay__entry__icon">{icon}</div>
-      <div className="header__content__overlay__entry__heading">{title}</div>
-      <div className="header__content__overlay__entry__info">{info}</div>
-    </div>
   );
 }

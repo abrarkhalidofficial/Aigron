@@ -1,6 +1,6 @@
 import expertisesection from "../assets/expertise-background.png";
 
-export function expertise() {
+export function ExpertiseSection() {
   return (
     <section className="expertise">
       <div className="expertise__img">
