@@ -22,7 +22,7 @@ export function ContactSection() {
             </div>
             <div className="form__content__right__form">
               <div className="form__content__right__form__heading">
-                Company Name(Optional)
+                Company Name
               </div>
               <div className="form__content__right__form__input">
                 <input type="Name" placeholder="Enter type Your Company Name" />
@@ -42,9 +42,7 @@ export function ContactSection() {
               </div>
             </div>
             <div className="form__content__right__form">
-              <div className="form__content__right__form__heading">
-                Mobile(Optional)
-              </div>
+              <div className="form__content__right__form__heading">Mobile</div>
               <div className="form__content__right__form__input">
                 <PhoneInput
                   international

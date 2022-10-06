@@ -15,9 +15,7 @@ export function HomeSection() {
             Build world-class digital products with a team of design,
             development and strategy experts. All in one place
           </div>
-          <div className="home__container__btn">
-            <button>Let us support you</button>{" "}
-          </div>
+          <button className="home__container__btn">Let us support you</button>
         </div>
       </div>
     </section>
