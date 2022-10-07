@@ -322,6 +322,9 @@ body::-webkit-scrollbar-track {
   width: 60%;
   margin-right: 4em;
 }
+.idea__img img {
+  filter: grayscale(100%);
+}
 .services {
   width: 100%;
   margin: 0 auto;
@@ -867,7 +870,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   top: -10%;
   left: 50%;
-  box-shadow: 0px 10px 30px rgb(14, 14, 14, 0.1);
+  box-shadow: 0px 10px 30px rgb(14, 14, 14, 0.6);
   border-radius: 18px;
 }
 .form__content__right__inputs {
