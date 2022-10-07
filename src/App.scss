@@ -327,7 +327,8 @@ body::-webkit-scrollbar-track {
 }
 .idea__img img {
   filter: grayscale(100%);
-  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
 }
 .services {
   width: 100%;
