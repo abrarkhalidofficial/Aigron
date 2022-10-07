@@ -524,24 +524,24 @@ body::-webkit-scrollbar-track {
   border-radius: 50px;
   cursor: pointer;
   opacity: 100;
-  background-color: #5048c4;
-  border: 1px solid#5048C4;
+  background-color: #4e84ad;
+  border: 1px solid#4e84ad;
 }
 .office__content__button__one__two {
   width: 25px;
   height: 25px;
   border-radius: 50px;
   cursor: pointer;
-  background-color: #5048c4;
-  border: 1px solid#5048C4;
+  background-color: #4e84ad;
+  border: 1px solid#4e84ad;
 }
 .office__content__button__one__three {
   width: 25px;
   height: 25px;
   border-radius: 50px;
   cursor: pointer;
-  background-color: #5048c4;
-  border: 1px solid#5048C4;
+  background-color: #4e84ad;
+  border: 1px solid#4e84ad;
 }
 .office__content__button__one__content__heading {
   font-size: 20px;
@@ -560,7 +560,7 @@ body::-webkit-scrollbar-track {
   margin-left: 4em;
   position: absolute;
   top: 1%;
-  background-color: #5048c4;
+  background-color: #4e84ad;
 
   width: 250px;
   padding: 2em;
@@ -583,7 +583,7 @@ body::-webkit-scrollbar-track {
   margin-left: 4em;
   position: absolute;
   top: 1%;
-  background-color: #5048c4;
+  background-color: #4e84ad;
 
   width: 250px;
   padding: 2em;
@@ -606,7 +606,7 @@ body::-webkit-scrollbar-track {
   margin-left: 4em;
   position: absolute;
   top: 1%;
-  background-color: #5048c4;
+  background-color: #4e84ad;
 
   width: 250px;
   padding: 2em;
@@ -618,7 +618,7 @@ body::-webkit-scrollbar-track {
   margin-left: 4em;
   position: absolute;
   top: 1%;
-  background-color: #5048c4;
+  background-color: #4e84ad;
 
   width: 250px;
   padding: 2em;
@@ -641,8 +641,8 @@ body::-webkit-scrollbar-track {
   border-radius: 50px;
   cursor: pointer;
   opacity: 100;
-  background-color: #5048c4;
-  border: 1px solid#5048C4;
+  background-color: #4e84ad;
+  border: 1px solid#4e84ad;
 }
 .office__content__button__four__content__heading {
   font-size: 20px;
@@ -661,7 +661,7 @@ body::-webkit-scrollbar-track {
   margin-left: 4em;
   position: absolute;
   top: 1%;
-  background-color: #5048c4;
+  background-color: #4e84ad;
 
   width: 250px;
   padding: 2em;
@@ -673,7 +673,7 @@ body::-webkit-scrollbar-track {
   margin-left: 4em;
   position: absolute;
   top: 1%;
-  background-color: #5048c4;
+  background-color: #4e84ad;
 
   width: 250px;
   padding: 2em;
@@ -696,8 +696,8 @@ body::-webkit-scrollbar-track {
   border-radius: 50px;
   cursor: pointer;
   opacity: 100;
-  background-color: #5048c4;
-  border: 1px solid#5048C4;
+  background-color: #4e84ad;
+  border: 1px solid#4e84ad;
 }
 .office__content__button__five__content__heading {
   font-size: 20px;
@@ -716,7 +716,7 @@ body::-webkit-scrollbar-track {
   margin-left: 4em;
   position: absolute;
   top: 1%;
-  background-color: #5048c4;
+  background-color: #4e84ad;
   width: 250px;
   padding: 2em;
   border-radius: 10px;
@@ -727,7 +727,7 @@ body::-webkit-scrollbar-track {
   margin-left: 4em;
   position: absolute;
   top: 1%;
-  background-color: #5048c4;
+  background-color: #4e84ad;
 
   width: 250px;
   padding: 2em;
@@ -750,8 +750,8 @@ body::-webkit-scrollbar-track {
   border-radius: 50px;
   cursor: pointer;
   opacity: 100;
-  background-color: #5048c4;
-  border: 1px solid#5048C4;
+  background-color: #4e84ad;
+  border: 1px solid#4e84ad;
 }
 .office__content__button__six__content__heading {
   font-size: 20px;
@@ -770,7 +770,7 @@ body::-webkit-scrollbar-track {
   margin-left: 4em;
   position: absolute;
   top: 1%;
-  background-color: #5048c4;
+  background-color: #4e84ad;
 
   width: 250px;
   padding: 2em;
@@ -812,6 +812,30 @@ body::-webkit-scrollbar-track {
 }
 .office__content__button__six:hover {
   background: rgba(69, 238, 219, 0.42);
+}
+.office__content__button__one:hover .office__content__button__one__one {
+  background-color: #45eee3;
+  border: 1px solid#45eee3;
+}
+.office__content__button__two:hover .office__content__button__one__two {
+  background-color: #45eee3;
+  border: 1px solid#45eee3;
+}
+.office__content__button__three:hover .office__content__button__one__three {
+  background-color: #45eee3;
+  border: 1px solid#45eee3;
+}
+.office__content__button__four:hover .office__content__button__one__four {
+  background-color: #45eee3;
+  border: 1px solid#45eee3;
+}
+.office__content__button__five:hover .office__content__button__one__five {
+  background-color: #45eee3;
+  border: 1px solid#45eee3;
+}
+.office__content__button__six:hover .office__content__button__one__six {
+  background-color: #45eee3;
+  border: 1px solid#45eee3;
 }
 .form {
   width: 100%;
@@ -879,17 +903,37 @@ body::-webkit-scrollbar-track {
   border-radius: 50px;
   border: none;
   background-color: rgb(247, 247, 247);
+  // padding-left: 3em;
+}
+.form__content__right__form__input__phone input {
+  width: 100%;
+  padding: 0px 1.5em;
+  height: 45px;
+  color: rgb(180, 175, 175);
+  text-align: flex-start;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(247, 247, 247);
+  padding-left: 4em;
 }
 .form__content__right__form__input .PhoneInput {
   margin-left: 0.5em;
 }
-.form__content__right__form__input:focus {
+.form__content__right__form__input input:focus {
+  outline: 1px solid #5378de;
+}
+.form__content__right__form__input__phone input:focus {
   outline: 1px solid #5378de;
 }
 .form__content__right__button {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+}
+.PhoneInputCountry {
+  margin-left: 1em;
+  position: absolute !important;
+  margin-top: 0.9em;
 }
 .form__content__right__button button {
   width: 30%;
@@ -931,7 +975,7 @@ body::-webkit-scrollbar-track {
 .footer__right__heading {
   font-size: 25px;
   font-weight: bold;
-  color: #5048c4;
+  color: #4e84ad;
   margin: 0.5em;
 }
 .footer__right__content__tag {

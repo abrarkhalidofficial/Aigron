@@ -43,8 +43,9 @@ export function ContactSection() {
             </div>
             <div className="form__content__right__form">
               <div className="form__content__right__form__heading">Mobile</div>
-              <div className="form__content__right__form__input">
+              <div className="form__content__right__form__input__phone">
                 <PhoneInput
+                  className="phone-input"
                   international
                   defaultCountry="RU"
                   onChange={(e) => {
