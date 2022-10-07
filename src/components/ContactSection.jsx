@@ -9,7 +9,7 @@ export function ContactSection() {
       </div>
       <div className="form__content">
         <div className="form__content__left">
-          <div className="form__content__heading">Get in touch</div>
+          <div className="form__content__heading">Get in Touch</div>
         </div>
         <div className="form__content__right">
           <div className="form__content__right__heading">Let’s Talk</div>
