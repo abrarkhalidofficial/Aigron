@@ -203,7 +203,132 @@ body::-webkit-scrollbar-track {
 
   margin-bottom: 1em;
 }
+.home__section__buttons {
+  display: flex;
+  align-items: center;
+}
+.home__section__buttons__btn {
+  cursor: pointer;
+  --color: white;
+  font-family: inherit;
+  display: inline-block;
+  width: fit-content;
+  padding: 1em 2em;
+  // margin: 0em 0.8em;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 15px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  height: 45px;
+}
+.home__section__buttons__btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 150px;
+  width: 150%;
+  border-radius: 50%;
+}
 
+.home__section__buttons__btn:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+.home__section__buttons__btn:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+.home__section__buttons__btn:active:before {
+  background: linear-gradient(90deg, #10cdbb 0%, #4c51c4 100%);
+  transition: background 0s;
+}
+.home__section__buttons__btn:disabled:before {
+  background: #242424;
+}
+.home__section__buttons__btn__primary {
+  background: linear-gradient(90deg, #10cdbb 0%, #4c51c4 100%);
+}
+.home__section__buttons__btn__primary:hover {
+  color: #4c51c4;
+}
+.home__section__buttons__btn__secondary::before {
+  background: linear-gradient(90deg, #10cdbb 0%, #4c51c4 100%);
+}
+.home__section__buttons__btn__primary::before {
+  background: white;
+}
+.home__section__buttons__btn__secondary {
+  background: linear-gradient(90deg, #4c51c4 0%, #10cdbb 100%);
+  color: #fff;
+}
+.home__section__buttons__btn__secondary:disabled {
+  background: #242424;
+}
+.home__section__buttons__btn__secondary:hover {
+  color: #ffffff;
+}
+.home__container__img img {
+  width: 100%;
+  object-fit: contain;
+}
+.idea {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1366px;
+  position: relative;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+}
+.contact__form__btn {
+  display: flex;
+  justify-content: end;
+  margin-right: 1.3em;
+}
+.idea__content {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 85%;
+}
+.idea__content__logo {
+  margin: 1em;
+}
+.idea__content__heading {
+  font-size: 38px;
+  width: 50%;
+
+  font-weight: bold;
+  color: #4365c3;
+}
+
+.idea__content__info {
+  text-align: justify;
+  width: 60%;
+  margin-right: 4em;
+}
+.idea__img {
+  width: 100%;
+}
+.idea__img img {
+  filter: grayscale(100%);
+  width: 100%;
+}
 .services {
   width: 100%;
   margin: 0 auto;
