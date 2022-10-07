@@ -53,7 +53,8 @@ body::-webkit-scrollbar-track {
   justify-content: center;
 }
 .header__content__menu:hover {
-  color: #000;
+  box-shadow: 0px 10px 30px rgba(14, 14, 14, 0.25);
+  // color: #000;
 }
 .header__content__nav {
   display: flex;
@@ -112,7 +113,7 @@ body::-webkit-scrollbar-track {
   left: 0px;
   width: 100%;
   z-index: 9999;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: #fff;
   animation: header__content__overlay__animation 500ms both;
 }
 @keyframes header__content__overlay__animation {
@@ -202,22 +203,79 @@ body::-webkit-scrollbar-track {
 
   margin-bottom: 1em;
 }
-.home__container__btn {
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 5px;
-  color: white;
-  background: linear-gradient(90deg, #4bd899 0%, #5378de 100%);
-  padding: 12px 22px;
-  border: none;
-  transition: 300ms ease-in-out;
-  cursor: pointer;
+.home__section__buttons {
+  display: flex;
+  align-items: center;
 }
-.home__container__btn:hover {
-  transition: 300ms ease-in-out;
-  background-color: #fff;
-  color: rgb(39, 39, 39) !important;
-  font-weight: bold;
+.home__section__buttons__btn {
+  cursor: pointer;
+  --color: white;
+  font-family: inherit;
+  display: inline-block;
+  width: fit-content;
+  padding: 1em 2em;
+  // margin: 0em 0.8em;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 15px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  height: 45px;
+}
+.home__section__buttons__btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 150px;
+  width: 150%;
+  border-radius: 50%;
+}
+
+.home__section__buttons__btn:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+.home__section__buttons__btn:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+.home__section__buttons__btn:active:before {
+  background: linear-gradient(90deg, #10cdbb 0%, #4c51c4 100%);
+  transition: background 0s;
+}
+.home__section__buttons__btn:disabled:before {
+  background: #242424;
+}
+.home__section__buttons__btn__primary {
+  background: linear-gradient(90deg, #10cdbb 0%, #4c51c4 100%);
+}
+.home__section__buttons__btn__primary:hover {
+  color: #4c51c4;
+}
+.home__section__buttons__btn__secondary::before {
+  background: linear-gradient(90deg, #10cdbb 0%, #4c51c4 100%);
+}
+.home__section__buttons__btn__primary::before {
+  background: white;
+}
+.home__section__buttons__btn__secondary {
+  background: linear-gradient(90deg, #4c51c4 0%, #10cdbb 100%);
+  color: #fff;
+}
+.home__section__buttons__btn__secondary:disabled {
+  background: #242424;
+}
+.home__section__buttons__btn__secondary:hover {
+  color: #ffffff;
 }
 .home__container__img img {
   width: 100%;
@@ -233,6 +291,11 @@ body::-webkit-scrollbar-track {
   align-items: center;
   display: flex;
   overflow: hidden;
+}
+.contact__form__btn {
+  display: flex;
+  justify-content: end;
+  margin-right: 1.3em;
 }
 .idea__content {
   position: absolute;
@@ -810,7 +873,7 @@ body::-webkit-scrollbar-track {
 .form__content__right__form__input input {
   width: 100%;
   padding: 0px 1.5em;
-  height: 40px;
+  height: 45px;
   color: rgb(180, 175, 175);
   text-align: flex-start;
   border-radius: 50px;
@@ -1060,9 +1123,19 @@ body::-webkit-scrollbar-track {
     width: 100%;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
     padding: 0 2em 1.5em;
-    animation: header__content__nav__animation 300ms both;
+    animation: header__content__nav__animation 500ms both;
     transform-origin: top;
     z-index: 999;
+  }
+  @keyframes header__content__nav__animation {
+    from {
+      opacity: 0;
+      top: 5em;
+    }
+    to {
+      opacity: 1;
+      top: 6em;
+    }
   }
   .header__content__nav__link {
     width: 100%;
@@ -1338,7 +1411,7 @@ body::-webkit-scrollbar-track {
     margin-left: 0em;
   }
   .header__content {
-    padding: 1.2em 1em;
+    padding: 1.7em 1em;
   }
   .home__container__heading {
     width: 100%;

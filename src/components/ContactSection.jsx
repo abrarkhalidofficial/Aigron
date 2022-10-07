@@ -77,8 +77,10 @@ export function ContactSection() {
               </div>
             </div>
           </div>
-          <div className="form__content__right__button">
-            <button>Submit</button>
+          <div className="contact__form__btn">
+            <button className="home__section__buttons__btn home__section__buttons__btn__secondary">
+              Submit
+            </button>
           </div>
         </div>
       </div>
