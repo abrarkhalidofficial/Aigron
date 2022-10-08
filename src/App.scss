@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
   width: 12px;
 }
 body::-webkit-scrollbar-thumb {
-  background: linear-gradient(90deg, #4bd899 0%, #5378de 100%);
+  background: linear-gradient( #4bd899 0%, #5378de 100%);
   border-radius: 50px;
 }
 body::-webkit-scrollbar-track {
@@ -162,14 +162,18 @@ body::-webkit-scrollbar-track {
   opacity: 0;
 }
 .header__content__overlay__entry:hover {
-  transition: 300ms ease-in-out;
+  transition: 500ms ease-in-out;
   background: #3bba9c;
   box-shadow: 8px 13px 18px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
+
+  transform: scale(1.1) ;
+ 
 }
 .header__content__overlay__entry:hover
   .header__content__overlay__entry__icon
   * {
+  
   transition: 300ms ease-in-out;
   fill: white;
 }
@@ -177,6 +181,7 @@ body::-webkit-scrollbar-track {
   .header__content__overlay__entry__heading {
   transition: 300ms ease-in-out;
   color: white;
+
 }
 .header__content__overlay__entry:hover .header__content__overlay__entry__info {
   transition: 300ms ease-in-out;
@@ -369,6 +374,8 @@ body::-webkit-scrollbar-track {
   display: flex;
   justify-content: end;
   margin-right: 1.3em;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .idea__content {
   position: absolute;
@@ -422,6 +429,7 @@ body::-webkit-scrollbar-track {
 .services__background {
   align-items: center;
   display: flex;
+  margin-top: 6em;
   justify-content: center;
 }
 .services__background img {
@@ -436,6 +444,7 @@ body::-webkit-scrollbar-track {
   align-items: center;
   position: absolute;
   top: 16%;
+ margin-bottom: 5em;
   left: calc(50% - 620px);
 }
 .services__card {
@@ -973,11 +982,11 @@ body::-webkit-scrollbar-track {
 .form__content__right {
   width: 35%;
   background-color: #fff;
-  padding: 1em;
+  padding: 1.3em;
   position: absolute;
   top: -10%;
   left: 50%;
-  box-shadow: 0px 10px 30px rgb(14, 14, 14, 0.6);
+  box-shadow: 0px 10px 30px rgb(14, 14, 14, 0.1);
   border-radius: 18px;
 }
 .form__content__right__inputs {
@@ -1398,7 +1407,9 @@ body::-webkit-scrollbar-track {
   }
   .services__card {
     width: 71%;
+    margin-bottom: 2em;
   }
+
 
   .expertise__img {
     display: none;
@@ -1441,10 +1452,11 @@ body::-webkit-scrollbar-track {
   .form__content__left {
     display: none;
   }
+
   .form__content__right {
     width: 90%;
     left: 5%;
-    margin-bottom: 2em;
+    margin-bottom: 6em;
   }
   .idea {
     margin-bottom: 5em;
