@@ -1593,9 +1593,10 @@ body::-webkit-scrollbar-track {
 
   .services__card {
     width: 83%;
+    margin-bottom: 3em;
   }
   .services__background {
-    height: 950px;
+    height: 850px;
   }
   .services__heading {
     font-size: 30px;
@@ -1652,6 +1653,7 @@ body::-webkit-scrollbar-track {
   .services__card {
     width: 85%;
     flex-direction: column;
+    margin-bottom: 2em;
   }
   .services__card__svg {
     margin-bottom: 1em;
