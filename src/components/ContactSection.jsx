@@ -25,7 +25,7 @@ export function ContactSection() {
                 Company Name
               </div>
               <div className="form__content__right__form__input">
-                <input type="Name" placeholder="Enter type Your Company Name" />
+                <input type="Name" placeholder="Enter Company Name" />
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ export function ContactSection() {
                   type="email"
                   name="emial"
                   id="email"
-                  placeholder="Enter"
+                  placeholder="Enter Email"
                 />
               </div>
             </div>
@@ -59,7 +59,12 @@ export function ContactSection() {
             <div className="form__content__right__form">
               <div className="form__content__right__form__heading">Subject</div>
               <div className="form__content__right__form__input">
-                <input type="text" name="text" id="text" placeholder="Enter" />
+                <input
+                  type="text"
+                  name="text"
+                  id="text"
+                  placeholder="Enter Subject"
+                />
               </div>
             </div>
           </div>

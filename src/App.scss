@@ -67,7 +67,7 @@ body::-webkit-scrollbar-track {
 .header__content__nav__link {
   padding: 0 1em;
   height: 38px;
-  font-size: 16px;
+
   color: #000;
   text-decoration: none;
   display: flex;
@@ -98,7 +98,7 @@ body::-webkit-scrollbar-track {
   align-items: center;
   color: white !important;
   text-decoration: none;
-  font-size: 16px;
+
   font-weight: 500;
   border: 1px solid transparent;
   transition: 300ms ease-in-out;
@@ -263,14 +263,13 @@ body::-webkit-scrollbar-track {
   left: 15%;
 }
 .home__container__heading {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
   width: 70%;
 
   margin-bottom: 0.5em;
 }
 .home__container__info {
-  font-size: 16px;
   font-weight: 500;
   width: 55%;
 
@@ -384,7 +383,7 @@ body::-webkit-scrollbar-track {
   margin: 1em;
 }
 .idea__content__heading {
-  font-size: 38px;
+  font-size: 30px;
   width: 50%;
 
   font-weight: bold;
@@ -414,7 +413,7 @@ body::-webkit-scrollbar-track {
   overflow: hidden;
 }
 .services__heading {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   color: #000;
   text-align: center;
@@ -514,7 +513,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   top: 15%;
   left: 42%;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   color: #fff;
   text-align: center;
@@ -568,7 +567,6 @@ body::-webkit-scrollbar-track {
 }
 
 .expertise__content__card__heading {
-  font-size: 16px;
   font-weight: bold;
   margin-bottom: 0.5em;
   padding-top: 1em;
@@ -585,7 +583,7 @@ body::-webkit-scrollbar-track {
 }
 
 .office__content__heading {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   color: #000;
   text-align: center;
@@ -991,7 +989,7 @@ body::-webkit-scrollbar-track {
   color: #fff;
 }
 .form__content__right__heading {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   color: #000;
   margin: 0.5em;
@@ -1014,6 +1012,7 @@ body::-webkit-scrollbar-track {
   color: rgb(180, 175, 175);
   text-align: flex-start;
   border-radius: 50px;
+  font-size: 14px;
   border: none;
   background-color: rgb(247, 247, 247);
   // padding-left: 3em;
@@ -1026,6 +1025,7 @@ body::-webkit-scrollbar-track {
   text-align: flex-start;
   border-radius: 50px;
   border: none;
+
   background-color: rgb(247, 247, 247);
   padding-left: 4em;
 }
@@ -1050,7 +1050,7 @@ body::-webkit-scrollbar-track {
 }
 .form__content__right__button button {
   width: 30%;
-  font-size: 16px;
+
   padding: 10px;
   margin: 1em;
   border: none;
@@ -1096,8 +1096,15 @@ body::-webkit-scrollbar-track {
   margin-bottom: 2em;
 }
 .footer__right__content__tag a {
-  font-size: 16px;
   color: #fff;
+  display: flex;
+  align-items: center;
+}
+.footer__right__content__tag a svg {
+  margin-right: 0.5em;
+}
+.footer__right__content__tag a:hover {
+  color: #4c51c4;
 }
 .footer__right__input__button input {
   padding: 1em 2em;
@@ -1123,7 +1130,7 @@ body::-webkit-scrollbar-track {
 }
 .footer__right__span {
   width: 30%;
-  height: 5px;
+  height: 3px;
   border-radius: 50px;
   background-color: #0ed1bb;
   margin-bottom: 2em;
@@ -1169,11 +1176,8 @@ body::-webkit-scrollbar-track {
   .footer__left__img img {
     height: 310px;
   }
-  .footer__right__content__tag a {
-    font-size: 16px;
-  }
   .footer__right__heading {
-    font-size: 23px;
+    font-size: 20px;
   }
 }
 
@@ -1192,9 +1196,6 @@ body::-webkit-scrollbar-track {
   }
   .home__container__info {
     width: 55%;
-  }
-  .home__container__btn {
-    font-size: 16px;
   }
   .home__container__img img {
     height: 400px;
@@ -1224,7 +1225,7 @@ body::-webkit-scrollbar-track {
     margin-right: 0em;
   }
   .idea__content__heading {
-    font-size: 35px;
+    font-size: 30px;
   }
   .services__card {
     margin: 1em;
@@ -1351,19 +1352,15 @@ body::-webkit-scrollbar-track {
     padding-right: 3em;
   }
   .form__content__heading {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 @media (max-width: 860px) {
   .home__container__heading {
     font-size: 30px;
   }
-
-  .home__container__img img {
-    font-size: 350px;
-  }
   .idea__content__heading {
-    font-size: 26px;
+    font-size: 25px;
   }
   .footer__right__heading__and__tags {
     width: 45%;
@@ -1608,7 +1605,7 @@ body::-webkit-scrollbar-track {
     left: 10%;
   }
   .home__container__heading {
-    font-size: 26px;
+    font-size: 25px;
   }
   .home__container__info {
     width: 90%;
@@ -1662,6 +1659,6 @@ body::-webkit-scrollbar-track {
     margin-top: 3px;
   }
   .form__content__right__form__input input {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
