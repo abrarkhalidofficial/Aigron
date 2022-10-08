@@ -32,7 +32,7 @@ export default function Header() {
         }
       >
         <div className="header__content">
-          <a href="/" className="header__content__logo">
+          <a href="#" className="header__content__logo">
             <svg
               width="174"
               height="43"
@@ -87,7 +87,7 @@ export default function Header() {
             >
               <div className="header__content__nav">
                 <a
-                  href="/#"
+                  href="#"
                   activeclassname="active"
                   className="header__content__nav__link"
                   onClick={() => {
@@ -101,7 +101,7 @@ export default function Header() {
                   Services
                 </a>
                 <a
-                  href="/#"
+                  href="#"
                   activeclassname="active"
                   className="header__content__nav__link"
                   onClick={() => {
@@ -115,7 +115,7 @@ export default function Header() {
                   Expertise
                 </a>
                 <a
-                  href="/#"
+                  href="#"
                   activeclassname="active"
                   className="header__content__nav__link"
                   onClick={() => {
@@ -126,6 +126,10 @@ export default function Header() {
                   }}
                 >
                   Company
+                </a>
+                <a className="header__nav__link__btn" title="Get in touch">
+                  <span>Get In Touch</span>
+                  <div className="liquid"></div>
                 </a>
               </div>
             </ClickAwayListener>
@@ -145,12 +149,9 @@ export default function Header() {
                 <Menu size={20} color="currentColor" />
               )}
             </button>
-            <a
-              href="#"
-              title="Join Now"
-              className="header__content__cta__button"
-            >
-              Get in Touch
+            <a className="header__nav__link__btn" title="Get in touch">
+              <span>Get In Touch</span>
+              <div className="liquid"></div>
             </a>
           </div>
         </div>
