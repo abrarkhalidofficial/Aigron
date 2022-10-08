@@ -612,8 +612,8 @@ body::-webkit-scrollbar-track {
   position: absolute;
   top: 45%;
   left: 65%;
-  background: rgba(7, 17, 243, 0.25);
-  border: none;
+  background-color: transparent;
+  border: 1px solid transparent;
 }
 .office__content__button__two {
   width: 80px;
@@ -638,13 +638,8 @@ body::-webkit-scrollbar-track {
   border: none;
 }
 .office__content__button__one__one {
-  width: 25px;
-  height: 25px;
-  border-radius: 50px;
-  cursor: pointer;
-  opacity: 100;
-  background-color: #4e84ad;
-  border: 1px solid#4e84ad;
+ border: 1px solid transparent;
+  background-color: transparent;
 }
 .office__content__button__one__two {
   width: 25px;
@@ -914,27 +909,10 @@ body::-webkit-scrollbar-track {
 .office__content__button__six:hover .office__content__button__six__content {
   display: inline;
 }
-.office__content__button__one:hover {
-  background: rgba(69, 238, 219, 0.42);
-}
-.office__content__button__two:hover {
-  background: rgba(69, 238, 219, 0.42);
-}
-.office__content__button__three:hover {
-  background: rgba(69, 238, 219, 0.42);
-}
-.office__content__button__four:hover {
-  background: rgba(69, 238, 219, 0.42);
-}
-.office__content__button__five:hover {
-  background: rgba(69, 238, 219, 0.42);
-}
-.office__content__button__six:hover {
-  background: rgba(69, 238, 219, 0.42);
-}
+
+
 .office__content__button__one:hover .office__content__button__one__one {
-  background-color: #45eee3;
-  border: 1px solid#45eee3;
+  background-color: transparent;
 }
 .office__content__button__two:hover .office__content__button__one__two {
   background-color: #45eee3;
