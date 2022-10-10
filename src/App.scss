@@ -1085,7 +1085,12 @@ body::-webkit-scrollbar-track {
   font-size: 25px;
   font-weight: bold;
   color: #5378de;
-  margin: 0.5em;
+  margin: 0.5em ;
+  margin-right: 3em;
+  width: 80%;
+}
+.footer__right__all__tags{
+  margin-left: -5px;
 }
 .footer__right__content__tag {
   margin: 1em;
@@ -1102,6 +1107,9 @@ body::-webkit-scrollbar-track {
 .footer__right__content__tag a:hover {
   color: #4c51c4;
 }
+.footer__right__input__button{
+  margin-left: 10px;
+}
 .footer__right__input__button input {
   padding: 1em 2em;
   outline: none;
@@ -1109,6 +1117,8 @@ body::-webkit-scrollbar-track {
 }
 .footer__right__input__button button {
   padding: 1em;
+  margin-top: 7px;
+  margin-left: 9em;
   outline: none;
   border-radius: 50px;
   background: linear-gradient(90deg, #4bd899 0%, #5378de 100%);
@@ -1123,6 +1133,9 @@ body::-webkit-scrollbar-track {
 }
 .footer__right__heading__and__tags {
   padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .footer__right__span {
   width: 30%;
@@ -1155,6 +1168,9 @@ body::-webkit-scrollbar-track {
   }
   .footer__right__heading__and__tags {
     padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 @media (max-width: 1366px) {
@@ -1208,6 +1224,7 @@ body::-webkit-scrollbar-track {
   }
   .footer__right__heading__and__tags {
     padding: 1.5em;
+    
   }
   .footer__right__input__button input {
     padding: 1em;
@@ -1556,6 +1573,7 @@ z-index: 999;
   .footer__right__input__button {
     display: flex;
     padding-bottom: 4em;
+   
   }
   .footer__background {
     display: none;
