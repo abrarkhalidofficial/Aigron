@@ -645,7 +645,7 @@ body::-webkit-scrollbar-track {
   background-color: transparent;
 }
 .office__content__button__one__two {
-  width: 25px;
+  width: 70px;
   height: 25px;
   border-radius: 50px;
   cursor: pointer;
@@ -653,7 +653,7 @@ body::-webkit-scrollbar-track {
   border: 1px solid transparent;
 }
 .office__content__button__one__three {
-  width: 25px;
+  width: 70px;
   height: 25px;
   border-radius: 50px;
   cursor: pointer;
@@ -753,7 +753,7 @@ body::-webkit-scrollbar-track {
   border: none;
 }
 .office__content__button__one__four {
-  width: 25px;
+  width: 60px;
   height: 25px;
   border-radius: 50px;
   cursor: pointer;
@@ -808,7 +808,7 @@ body::-webkit-scrollbar-track {
   border: none;
 }
 .office__content__button__one__five {
-  width: 25px;
+  width: 60px;
   height: 25px;
   border-radius: 50px;
   cursor: pointer;
@@ -862,7 +862,7 @@ body::-webkit-scrollbar-track {
   border: none;
 }
 .office__content__button__one__six {
-  width: 25px;
+  width: 60px;
   height: 25px;
   border-radius: 50px;
   cursor: pointer;
@@ -914,30 +914,35 @@ body::-webkit-scrollbar-track {
   display: inline;
 }
 
-.office__content__button__one:hover .office__content__button__one__one {
-  background-color: transparent;
+
+.office__content__button__one:hover{
+  background:  #4bd89990;
+  transition: 400ms ease-in-out;
+}
+.office__content__button__two:hover{
+  background:  #4bd89990;
+  transition: 400ms ease-in-out;
+}
+.office__content__button__three:hover{
+  background:  #4bd89990;
+  transition: 400ms ease-in-out;
+}
+.office__content__button__four:hover{
+  background:  #4bd89990;
+  transition: 400ms ease-in-out;
+}
+.office__content__button__five:hover{
+  background:  #4bd89990;
+  transition: 400ms ease-in-out;
+}
+.office__content__button__six:hover{
+  background:  #4bd8999e;
+  transition: 400ms ease-in-out;
 }
 
-.office__content__button__two:hover .office__content__button__one__two {
-  background-color: transparent;
-  border: 1px solid transparent;
-}
-.office__content__button__three:hover .office__content__button__one__three {
-  background-color: transparent;
-  border: 1px solid transparent;
-}
-.office__content__button__four:hover .office__content__button__one__four {
-  background-color: transparent;
-  border: 1px solid transparent;
-}
-.office__content__button__five:hover .office__content__button__one__five {
-  background-color: transparent;
-  border: 1px solid transparent;
-}
-.office__content__button__six:hover .office__content__button__one__six {
-  background-color: transparent;
-  border: 1px solid transparent;
-}
+
+
+
 .form {
   width: 100%;
   margin: 0 auto;
