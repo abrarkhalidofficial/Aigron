@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
   width: 12px;
 }
 body::-webkit-scrollbar-thumb {
-  background: linear-gradient( #4bd899 0%, #5378de 100%);
+  background: linear-gradient(#4bd899 0%, #5378de 100%);
   border-radius: 50px;
 }
 body::-webkit-scrollbar-track {
@@ -167,13 +167,11 @@ body::-webkit-scrollbar-track {
   box-shadow: 8px 13px 18px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 
-  transform: scale(1.1) ;
- 
+  transform: scale(1.1);
 }
 .header__content__overlay__entry:hover
   .header__content__overlay__entry__icon
   * {
-  
   transition: 300ms ease-in-out;
   fill: white;
 }
@@ -181,7 +179,6 @@ body::-webkit-scrollbar-track {
   .header__content__overlay__entry__heading {
   transition: 300ms ease-in-out;
   color: white;
-
 }
 .header__content__overlay__entry:hover .header__content__overlay__entry__info {
   transition: 300ms ease-in-out;
@@ -218,23 +215,23 @@ body::-webkit-scrollbar-track {
   transition: 0.5s;
 }
 
-.header__nav__link__btn .liquid::after,
-.header__nav__link__btn .liquid::before {
-  content: "";
-  width: 200%;
-  height: 200%;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -75%);
-  background: #fff;
-}
+// .header__nav__link__btn .liquid::after,
+// .header__nav__link__btn .liquid::before {
+//   content: "";
+//   width: 200%;
+//   height: 200%;
+//   position: absolute;
+//   top: 0;
+//   left: 50%;
+//   transform: translate(-50%, -75%);
+//   background: #fff;
+// }
 
-.header__nav__link__btn .liquid::before {
-  border-radius: 45%;
-  background: rgba(255, 255, 255, 0.3);
-  animation: animate 5s linear infinite;
-}
+// .header__nav__link__btn .liquid::before {
+//   border-radius: 45%;
+//   background: rgba(255, 255, 255, 0.3);
+//   animation: animate 5s linear infinite;
+// }
 
 .header__nav__link__btn .liquid::after {
   border-radius: 40%;
@@ -444,7 +441,7 @@ body::-webkit-scrollbar-track {
   align-items: center;
   position: absolute;
   top: 16%;
- margin-bottom: 5em;
+  margin-bottom: 5em;
   left: calc(50% - 620px);
 }
 .services__card {
@@ -615,6 +612,12 @@ body::-webkit-scrollbar-track {
   background-color: transparent;
   border: 1px solid transparent;
 }
+// .office__content__button__ones{
+//   top: 4%;
+//   left: 65%;
+//   width: 80px;
+//   height: 80px;
+// }
 .office__content__button__two {
   width: 80px;
   height: 80px;
@@ -623,8 +626,8 @@ body::-webkit-scrollbar-track {
   position: absolute;
   top: 65%;
   left: 32%;
-  background: rgba(7, 17, 243, 0.25);
-  border: none;
+  background-color: transparent;
+  border: 1px solid transparent;
 }
 .office__content__button__three {
   width: 80px;
@@ -634,11 +637,11 @@ body::-webkit-scrollbar-track {
   position: absolute;
   top: 28%;
   left: 50%;
-  background: rgba(7, 17, 243, 0.25);
+  background: transparent;
   border: none;
 }
 .office__content__button__one__one {
- border: 1px solid transparent;
+  border: 1px solid transparent;
   background-color: transparent;
 }
 .office__content__button__one__two {
@@ -646,16 +649,16 @@ body::-webkit-scrollbar-track {
   height: 25px;
   border-radius: 50px;
   cursor: pointer;
-  background-color: #4e84ad;
-  border: 1px solid#4e84ad;
+  background-color: transparent;
+  border: 1px solid transparent;
 }
 .office__content__button__one__three {
   width: 25px;
   height: 25px;
   border-radius: 50px;
   cursor: pointer;
-  background-color: #4e84ad;
-  border: 1px solid#4e84ad;
+  background-color: transparent;
+  border: 1px solid transparent;
 }
 .office__content__button__one__content__heading {
   font-size: 20px;
@@ -721,7 +724,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   top: 1%;
   background-color: #4e84ad;
-
+  z-index: 9999;
   width: 250px;
   padding: 2em;
   border-radius: 10px;
@@ -746,7 +749,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   top: 45%;
   left: 55%;
-  background: rgba(7, 17, 243, 0.25);
+  background: transparent;
   border: none;
 }
 .office__content__button__one__four {
@@ -755,8 +758,8 @@ body::-webkit-scrollbar-track {
   border-radius: 50px;
   cursor: pointer;
   opacity: 100;
-  background-color: #4e84ad;
-  border: 1px solid#4e84ad;
+  background-color: transparent;
+  border: 1px solid transparent;
 }
 .office__content__button__four__content__heading {
   font-size: 20px;
@@ -801,7 +804,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   top: 45%;
   left: 45%;
-  background: rgba(7, 17, 243, 0.25);
+  background: transparent;
   border: none;
 }
 .office__content__button__one__five {
@@ -810,8 +813,8 @@ body::-webkit-scrollbar-track {
   border-radius: 50px;
   cursor: pointer;
   opacity: 100;
-  background-color: #4e84ad;
-  border: 1px solid#4e84ad;
+  background-color: transparent;
+  border: 1px solid transparent;
 }
 .office__content__button__five__content__heading {
   font-size: 20px;
@@ -841,7 +844,7 @@ body::-webkit-scrollbar-track {
   margin-left: 4em;
   position: absolute;
   top: 1%;
-  background-color: #4e84ad;
+  background-color: transparent;
 
   width: 250px;
   padding: 2em;
@@ -855,7 +858,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   top: 35%;
   left: 25%;
-  background: rgba(7, 17, 243, 0.25);
+  background: transparent;
   border: none;
 }
 .office__content__button__one__six {
@@ -864,8 +867,8 @@ body::-webkit-scrollbar-track {
   border-radius: 50px;
   cursor: pointer;
   opacity: 100;
-  background-color: #4e84ad;
-  border: 1px solid#4e84ad;
+  background-color: transparent;
+  border: 1px solid transparent;
 }
 .office__content__button__six__content__heading {
   font-size: 20px;
@@ -894,6 +897,7 @@ body::-webkit-scrollbar-track {
 .office__content__button__one:hover .office__content__button__one__content {
   display: inline;
 }
+
 .office__content__button__two:hover .office__content__button__two__content {
   display: inline;
 }
@@ -910,29 +914,29 @@ body::-webkit-scrollbar-track {
   display: inline;
 }
 
-
 .office__content__button__one:hover .office__content__button__one__one {
   background-color: transparent;
 }
+
 .office__content__button__two:hover .office__content__button__one__two {
-  background-color: #45eee3;
-  border: 1px solid#45eee3;
+  background-color: transparent;
+  border: 1px solid transparent;
 }
 .office__content__button__three:hover .office__content__button__one__three {
-  background-color: #45eee3;
-  border: 1px solid#45eee3;
+  background-color: transparent;
+  border: 1px solid transparent;
 }
 .office__content__button__four:hover .office__content__button__one__four {
-  background-color: #45eee3;
-  border: 1px solid#45eee3;
+  background-color: transparent;
+  border: 1px solid transparent;
 }
 .office__content__button__five:hover .office__content__button__one__five {
-  background-color: #45eee3;
-  border: 1px solid#45eee3;
+  background-color: transparent;
+  border: 1px solid transparent;
 }
 .office__content__button__six:hover .office__content__button__one__six {
-  background-color: #45eee3;
-  border: 1px solid#45eee3;
+  background-color: transparent;
+  border: 1px solid transparent;
 }
 .form {
   width: 100%;
@@ -1241,6 +1245,42 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 1080px) {
+  .office__content__button__one__content{
+top: 120%;
+right: -100%;
+
+z-index: 999;  
+  }
+  .office__content__button__three__content{
+top: -240%;
+right: -120%;
+z-index: 999;  
+
+  }
+  .office__content__button__four__content{
+top: 120%;
+right: -120%;
+z-index: 999;  
+
+  }
+  .office__content__button__five__content{
+top: 120%;
+right: -130%;
+z-index: 999;  
+
+  }
+  .office__content__button__six__content{
+    top: 120%;
+    right: -100%;
+    z-index: 999;  
+
+  }
+  .office__content__button__two__content{
+    top: -240%;
+    right: -120%;
+ z-index: 999;    
+
+  }
   .footer__left {
     display: none;
   }
@@ -1388,7 +1428,6 @@ body::-webkit-scrollbar-track {
     margin-bottom: 2em;
   }
 
-
   .expertise__img {
     display: none;
   }
@@ -1521,28 +1560,81 @@ body::-webkit-scrollbar-track {
   }
   .office__content__button__one {
     top: 11%;
-    left: 14%;
+    left: 10%;
   }
   .office__content__button__two {
     top: 21%;
-    left: 10%;
+    left: 3%;
   }
   .office__content__button__three {
     top: 32%;
-    left: 10%;
+    left: 0%;
   }
 
   .office__content__button__four {
     top: 44%;
-    left: 10%;
+    left: 0%;
   }
   .office__content__button__five {
     top: 55%;
-    left: 14%;
+    left: 1%;
   }
   .office__content__button__six {
     top: 65%;
-    left: 20%;
+    left: 5%;
+  }
+
+  .office__content__button__one__content{
+    top: -40%;
+    right: 50%;
+    left: 40%;
+
+    z-index: 999;  
+
+  }
+
+ 
+
+  
+  .office__content__button__two__content{
+    top: -40%;
+    right: 50%;
+    left: 50%;
+
+    z-index: 999;  
+
+  }
+  .office__content__button__three__content{
+    top: -40%;
+    right: 50%;
+    left: 50%;
+    z-index: 999;  
+
+  }
+  .office__content__button__four__content{
+    top: -40%;
+    right: 50%;
+    left: 50%;
+
+    z-index: 999;  
+
+  }
+  .office__content__button__five__content{
+    top: -40%;
+    right: 50%;
+    left: 50%;
+
+    z-index: 999;  
+
+  }
+  .office__content__button__six__content{
+    top: -40%;
+    right: 50%;
+
+    left: 50%;
+
+    z-index: 999;  
+
   }
   .office__content__svg {
     height: 700px;
@@ -1634,6 +1726,31 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 400px) {
+  .office__content__button__one {
+    top: 11%;
+    left: 1%;
+  }
+  .office__content__button__two {
+    top: 21%;
+    left: -3%;
+  }
+  .office__content__button__three {
+    top: 32%;
+    left: -3%;
+  }
+
+  .office__content__button__four {
+    top: 44%;
+    left: -3%;
+  }
+  .office__content__button__five {
+    top: 55%;
+    left: -3%;
+  }
+  .office__content__button__six {
+    top: 65%;
+    left: -3%;
+  }
   .idea__content__heading {
     width: 80%;
   }
