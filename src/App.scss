@@ -516,10 +516,14 @@ body::-webkit-scrollbar-track {
 }
 .services__card__info {
   font-size: 14px;
+  text-align: justify;
+  line-break: anywhere;
 }
 .services__card__info__two {
   display: none;
   font-size: 14px;
+  text-align: justify;
+  line-break: anywhere;
 }
 .services__card:hover .services__card__info__two {
   display: block;
@@ -593,6 +597,8 @@ body::-webkit-scrollbar-track {
 .expertise__content__card__title {
   display: none;
   font-size: 13px;
+  text-align: justify;
+  line-break: anywhere;
 }
 .expertise__content__card:hover .expertise__content__card__title {
   display: flex;
