@@ -76,7 +76,7 @@ export function ServicesSection() {
           </div>
           <div className="services__card__heading__nd__info">
             <div className="services__card__heading">
-              Hire dedicated AI / Data professionals
+              Hire dedicated AI / <br /> Data professionals
             </div>
             <div className="services__card__info">
               Expand your delivery capacity with dedicated AI and Data
@@ -112,7 +112,9 @@ export function ServicesSection() {
             </svg>
           </div>
           <div className="services__card__heading__nd__info">
-            <div className="services__card__heading">Software Development</div>
+            <div className="services__card__heading">
+              Software <br /> Development
+            </div>
             <div className="services__card__info">
               Expand your AI and Data development capabilities within your
               required scope by partnering with us.
