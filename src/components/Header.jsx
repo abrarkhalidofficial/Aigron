@@ -361,7 +361,6 @@ export default function Header() {
                     </svg>
                   }
                   title="Artificial Intelligence"
-                  info="Aigronexperts are experienced in taking your business to the next level by applying Artificial Intelligence solutions. Automating processes, optimizing sales, enhancing marketing efforts, engaging with your customers. "
                 />
                 <HeaderOverlayEntry
                   small
@@ -392,7 +391,6 @@ export default function Header() {
                     </svg>
                   }
                   title="AR & VR"
-                  info="Enhance your designing process, product presentation and customer support with AR/VR technology. Aigron experts are experienced with bringing the idea to virtual reality. Get in touch to explore your possibilities regarding the application. "
                 />
                 <HeaderOverlayEntry
                   small
@@ -415,8 +413,6 @@ export default function Header() {
                     </svg>
                   }
                   title="E-Security"
-                  info="We have experience with making full cybersecurity plans and provide ongoing management to keep your company protected. Get in touch to explore your best E-Security solutions.
-                  "
                 />
                 <HeaderOverlayEntry
                   small
@@ -446,7 +442,6 @@ export default function Header() {
                     </svg>
                   }
                   title="E-Energy"
-                  info="We have experience with making full cybersecurity plans and provide ongoing management to keep your company protected. Get in touch to explore your best E-Security solutions. "
                 />
                 <HeaderOverlayEntry
                   small
@@ -481,7 +476,6 @@ export default function Header() {
                     </svg>
                   }
                   title="Data"
-                  info="Aigron experts are experienced in optimizing operations, mitigating risks and turning your data into revenues by applying Data Science and Data Analytics solutions powered by AI. Contact us to explore your best Data solutions. "
                 />
               </div>
             ) : null}
