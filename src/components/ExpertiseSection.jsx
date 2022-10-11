@@ -33,8 +33,8 @@ export function ExpertiseSection() {
           </div>
           <div className="expertise__content__card__svg__two">
             <svg
-              width="71"
-              height="71"
+                   width="50"
+                   height="50"
               viewBox="0 0 71 71"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -57,12 +57,13 @@ export function ExpertiseSection() {
           <div className="expertise__content__card__heading">
             Artificial Intelligence
           </div>
+          <div className="expertise__content__card__title">We transform bold business ideas into exceptional digital products. Searching</div>
         </div>
         <div className="expertise__content__card">
           <div className="expertise__content__card__svg">
             <svg
-              width="75"
-              height="75"
+                   width="70"
+                   height="70"
               viewBox="0 0 75 75"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -87,8 +88,8 @@ export function ExpertiseSection() {
           </div>
           <div className="expertise__content__card__svg__two">
             <svg
-              width="75"
-              height="75"
+          width="50"
+          height="50"
               viewBox="0 0 75 75"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -112,6 +113,7 @@ export function ExpertiseSection() {
             </svg>
           </div>
           <div className="expertise__content__card__heading">AR & VR</div>
+          <div className="expertise__content__card__title">We transform bold business ideas into exceptional digital products. Searching</div>
         </div>
         <div className="expertise__content__card">
           <div className="expertise__content__card__svg">
@@ -134,8 +136,8 @@ export function ExpertiseSection() {
           </div>{" "}
           <div className="expertise__content__card__svg__two">
             <svg
-              width="88"
-              height="75"
+                    width="50"
+                    height="50"
               viewBox="0 0 88 75"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -151,12 +153,13 @@ export function ExpertiseSection() {
             </svg>
           </div>
           <div className="expertise__content__card__heading">E-Security</div>
+          <div className="expertise__content__card__title">We transform bold business ideas into exceptional digital products. Searching</div>
         </div>
         <div className="expertise__content__card">
           <div className="expertise__content__card__svg">
             <svg
-              width="98"
-              height="89"
+                   width="70"
+                   height="70"
               viewBox="0 0 98 89"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -180,8 +183,8 @@ export function ExpertiseSection() {
           </div>
           <div className="expertise__content__card__svg__two">
             <svg
-              width="98"
-              height="89"
+                        width="50"
+                        height="50"
               viewBox="0 0 98 89"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -197,12 +200,13 @@ export function ExpertiseSection() {
             </svg>
           </div>
           <div className="expertise__content__card__heading">E-Energy</div>
+          <div className="expertise__content__card__title">We transform bold business ideas into exceptional digital products. Searching</div>
         </div>
         <div className="expertise__content__card">
           <div className="expertise__content__card__svg">
             <svg
-              width="57"
-              height="58"
+             width="60"
+             height="60"
               viewBox="0 0 57 58"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -231,8 +235,8 @@ export function ExpertiseSection() {
           </div>
           <div className="expertise__content__card__svg__two">
             <svg
-              width="57"
-              height="58"
+                width="50"
+                height="50"
               viewBox="0 0 57 58"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -260,6 +264,7 @@ export function ExpertiseSection() {
             </svg>
           </div>
           <div className="expertise__content__card__heading">Data</div>
+          <div className="expertise__content__card__title">We transform bold business ideas into exceptional digital products. Searching</div>
         </div>
       </div>
     </section>

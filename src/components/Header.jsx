@@ -361,6 +361,7 @@ export default function Header() {
                     </svg>
                   }
                   title="Artificial Intelligence"
+                  info="We transform bold business ideas into exceptional digital products. Searching "
                 />
                 <HeaderOverlayEntry
                   small
@@ -391,6 +392,7 @@ export default function Header() {
                     </svg>
                   }
                   title="AR & VR"
+                  info="We transform bold business ideas into exceptional digital products. Searching "
                 />
                 <HeaderOverlayEntry
                   small
@@ -413,6 +415,7 @@ export default function Header() {
                     </svg>
                   }
                   title="E-Security"
+                  info="We transform bold business ideas into exceptional digital products. Searching "
                 />
                 <HeaderOverlayEntry
                   small
@@ -442,6 +445,7 @@ export default function Header() {
                     </svg>
                   }
                   title="E-Energy"
+                  info="We transform bold business ideas into exceptional digital products. Searching "
                 />
                 <HeaderOverlayEntry
                   small
@@ -476,6 +480,7 @@ export default function Header() {
                     </svg>
                   }
                   title="Data"
+                  info="We transform bold business ideas into exceptional digital products. Searching "
                 />
               </div>
             ) : null}

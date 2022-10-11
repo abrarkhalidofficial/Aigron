@@ -141,7 +141,7 @@ export function OfficeSection() {
                   Singapore Office
                 </div>
                 <div className="office__content__button__six__content__info">
-                +31648945452 <br /> Meander 251, 6825 MC Arnhem, the Netherlands
+              +31648945452 <br /> Meander 251, 6825 MC Arnhem, the Netherlands
                 </div>
               </div>
             </button>

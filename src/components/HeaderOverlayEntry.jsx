@@ -11,6 +11,7 @@ export function HeaderOverlayEntry({ icon, info, title, small }) {
         {title}
       </div>
       <div className="header__content__overlay__entry__info">{info}</div>
+     
     </div>
   );
 }
