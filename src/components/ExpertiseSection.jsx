@@ -55,11 +55,10 @@ export function ExpertiseSection() {
           </div>
           <div className="expertise__content__card__heading">AI</div>
           <div className="expertise__content__card__title">
-            Aigron experts are experienced in taking your business to the next
+            Aigronexperts are experienced in taking your business to the next
             level by applying Artificial Intelligence solutions. Automating
             processes, optimizing sales, enhancing marketing efforts, engaging
-            with your customers in a better way and more creates value to your
-            business.
+            with your customers.
           </div>
         </div>
         <div className="expertise__content__card">
@@ -284,7 +283,7 @@ export function ExpertiseSection() {
             Enhance your designing process, product presentation and customer
             support with AR/VR technology. Aigron experts are experienced with
             bringing the idea to virtual reality. Get in touch to explore your
-            possibilities regarding the application of VR/AR to your business.
+            possibilities regarding the application.
           </div>
         </div>
       </div>
