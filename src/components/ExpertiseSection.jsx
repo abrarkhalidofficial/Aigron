@@ -53,14 +53,12 @@ export function ExpertiseSection() {
               />
             </svg>
           </div>
-
           <div className="expertise__content__card__heading">AI</div>
           <div className="expertise__content__card__title">
             Aigron experts are experienced in taking your business to the next
             level by applying Artificial Intelligence solutions. Automating
             processes, optimizing sales, enhancing marketing efforts, engaging
             with your customers in a better way and more creates value to your
-            business. Contact us to explore your best AI possibilities for your
             business.
           </div>
         </div>

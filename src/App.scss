@@ -544,13 +544,11 @@ body::-webkit-scrollbar-track {
 .expertise__content__card {
   width: 20%;
   background-color: #fff;
-  padding-top: 2em;
-  padding: 1em;
+  padding: 2em;
   justify-content: center;
   align-items: center;
   display: grid;
   min-height: 300px;
-  padding-bottom: 3em;
   border-radius: 15px;
   color: #000;
   box-shadow: 0px 10px 30px rgba(14, 14, 14, 0.1);
@@ -584,6 +582,8 @@ body::-webkit-scrollbar-track {
 }
 .expertise__content__card:hover .expertise__content__card__title {
   display: flex;
+  font-size: 12px;
+  text-align: justify;
 }
 .expertise__content__card__heading {
   font-weight: bold;
