@@ -82,7 +82,7 @@ export function ServicesSection() {
               Expand your delivery capacity with dedicated AI and Data
               professionals under your own management.
             </div>
-            <div className="services__card__info">
+            <div className="services__card__info__two">
               Aigron offices are located worldwide from where our AI and Data
               professionals can support you.
             </div>
@@ -117,7 +117,7 @@ export function ServicesSection() {
               Expand your AI and Data development capabilities within your
               required scope by partnering with us.
             </div>
-            <div className="services__card__info">
+            <div className="services__card__info__two">
               customers and understand their needs and interact easily with them
               for expanding their development capabilities.
             </div>
@@ -192,11 +192,9 @@ export function ServicesSection() {
               Expand your development capabilities by hiring the right AI and
               Data candidate for your permanent openings .
             </div>
-            <div className="services__card__info">
-              <div className="services__card__info">
-                Expand your development capabilities by hiring the right AI and
-                Data candidate for your permanent openings .
-              </div>
+            <div className="services__card__info__two">
+              Expand your development capabilities by hiring the right AI and
+              Data candidate for your permanent openings .
             </div>
           </div>
         </div>

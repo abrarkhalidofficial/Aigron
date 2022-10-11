@@ -228,8 +228,9 @@ export default function Header() {
                       />
                     </svg>
                   }
-                  title="Remote Capacity"
-                  info="We transform bold business ideas into exceptional digital products. Searching"
+                  title="Hire dedicated Al / Data professionals"
+                  info="Aigron can provide you with (remote) Al and Data professionals for short and long
+                  term projects, or just in case capacity is required."
                 />
                 <HeaderOverlayEntry
                   icon={
@@ -254,8 +255,8 @@ export default function Header() {
                       />
                     </svg>
                   }
-                  title=" Dedicated  Team"
-                  info="We transform bold business ideas into exceptional digital products. Searching"
+                  title="  Software Development"
+                  info="Partner with us to take the process of Al and Data development off your hands."
                 />
                 <HeaderOverlayEntry
                   icon={
@@ -326,9 +327,9 @@ export default function Header() {
                       </defs>
                     </svg>
                   }
-                  title="Custom Software
-                Development"
-                  info="We transform bold business ideas into exceptional digital products. Searching"
+                  title="Recruitment"
+                  info="With our Recruitment services we can find you the right Al and Data candidates
+                  from our wide network of professionals."
                 />
               </div>
             ) : null}
@@ -521,7 +522,6 @@ export default function Header() {
                     </svg>
                   }
                   title="About Us"
-                  info="We transform bold business ideas into exceptional digital products. Searching"
                 />
                 <HeaderOverlayEntry
                   onClick={() => {
@@ -617,30 +617,6 @@ export default function Header() {
                     </svg>
                   }
                   title="Career"
-                  info="We transform bold business ideas into exceptional digital products. Searching"
-                />
-                <HeaderOverlayEntry
-                  icon={
-                    <svg
-                      width="70"
-                      height="69"
-                      viewBox="0 0 70 69"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M66.0694 34.0208C66.0694 16.3209 51.7207 1.97223 34.0208 1.97223C16.3208 1.97223 1.97217 16.3209 1.97217 34.0208C1.97217 51.7208 16.3208 66.0695 34.0208 66.0695C51.7207 66.0695 66.0694 51.7208 66.0694 34.0208Z"
-                        fill="#4E84AD"
-                      />
-                      <path
-                        d="M34.5139 0C15.8095 0 0.712793 14.5304 0.062595 32.8058C0.0481257 33.2125 0 33.6105 0 34.0208C0 52.8684 15.3932 68.0417 34.5139 68.0417C53.6346 68.0417 69.0278 52.8684 69.0278 34.0208C69.0278 33.6105 68.9797 33.2125 68.9652 32.8058C68.315 14.5304 53.2183 0 34.5139 0ZM34.5139 2.43006C52.2688 2.43006 66.5625 16.5196 66.5625 34.0208C66.5625 51.5221 52.2688 65.6116 34.5139 65.6116C16.759 65.6116 2.46528 51.5221 2.46528 34.0208C2.46528 16.5196 16.759 2.43006 34.5139 2.43006ZM32.0486 17.0104V21.8705H36.9792V17.0104H32.0486ZM32.0486 26.7307V51.0312H36.9792V26.7307H32.0486Z"
-                        fill="#0ED1BB"
-                        style={{ fill: "#0ED1BB" }}
-                      />
-                    </svg>
-                  }
-                  title="Dedicated Teams"
-                  info="We transform bold business ideas into exceptional digital products. Searching"
                 />
               </div>
             ) : null}
