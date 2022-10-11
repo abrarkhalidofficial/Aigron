@@ -1,27 +1,25 @@
 import Header from "./components/Header";
-import { HomeSection } from "./components/HomeSection";
-import { IdeaSection } from "./components/IdeaSection";
-import { ServicesSection } from "./components/ServicesSection";
-import { ExpertiseSection } from "./components/ExpertiseSection";
-import { OfficeSection } from "./components/OfficeSection";
-import { ContactSection } from "./components/ContactSection";
 import { Footer } from "./components/Footer";
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./screens/Home";
+import About from "./screens/About";
+import Career from "./screens/Career";
 
 import "./App.scss";
 import "react-phone-number-input/style.css";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      <HomeSection />
-      <IdeaSection />
-      <ServicesSection />
-      <ExpertiseSection />
-      <OfficeSection />
-      <ContactSection />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/career" element={<Career />} />
+      </Routes>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 

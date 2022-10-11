@@ -1,21 +1,9 @@
-import Header from "./components/Header";
-import { HomeSection } from "./components/HomeSection";
-import { IdeaSection } from "./components/IdeaSection";
-import { ServicesSection } from "./components/ServicesSection";
-import { ExpertiseSection } from "./components/ExpertiseSection";
-import { OfficeSection } from "./components/OfficeSection";
-import { ContactSection } from "./components/ContactSection";
-import { Footer } from "./components/Footer";
+import careerimg from "../assets/career.png";
+import carrescontentright from "../assets/career-content-right.png";
 
-import "./App.scss";
-import "react-phone-number-input/style.css";
-import careerimg from "./assets/career.png";
-import carrescontentright from "./assets/career-content-right.png";
-
-function App() {
+export default function Career() {
   return (
     <>
-      <Header />
       <section className="Career__page">
         <div className="career__page__img">
           <img src={careerimg} alt="career" />
@@ -40,9 +28,6 @@ function App() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }
-
-export default App;

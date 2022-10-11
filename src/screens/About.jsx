@@ -1,20 +1,14 @@
-import Header from "./components/Header";
-import { Footer } from "./components/Footer";
-import "./App.scss";
-import "react-phone-number-input/style.css";
-import missionsection from "./assets/mission-section.png";
-import aboutusbottom from "./assets/about-us-bottom.png";
-import ourteamright from "./assets/ourteam-right.png";
+import missionsection from "../assets/mission-section.png";
+import aboutusbottom from "../assets/about-us-bottom.png";
+import ourteamright from "../assets/ourteam-right.png";
 
-function App() {
+export default function About() {
   return (
     <>
-      <Header />
       <section className="aboutus__page">
         <div className="aboutus__page__left">
           <div className="aboutus__page__left_text">About Us</div>
         </div>
-
         <div className="aboutus__page__right">
           <div className="aboutus__page__right__info">
             Aigron is an AI and Data consultancy, development and recruitment
@@ -371,15 +365,11 @@ function App() {
               the readable content of a page when looking at its layout.
             </div>
           </div>
-        </div>{" "}
+        </div>
         <div className="our__team__right__img">
           <img src={ourteamright} alt="ourteamright" />
         </div>
       </section>
-
-      <Footer />
     </>
   );
 }
-
-export default App;

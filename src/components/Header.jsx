@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import ClickAwayListener from "react-click-away-listener";
 import { HeaderOverlayEntry } from "./HeaderOverlayEntry";
 import { Menu, X } from "react-feather";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [isService, setIsService] = useState(false);
@@ -32,7 +33,7 @@ export default function Header() {
         }
       >
         <div className="header__content">
-          <a href="#" className="header__content__logo">
+          <Link to="/" className="header__content__logo">
             <svg
               width="174"
               height="43"
@@ -76,7 +77,7 @@ export default function Header() {
                 </linearGradient>
               </defs>
             </svg>
-          </a>
+          </Link>
           {isOpen ? (
             <ClickAwayListener
               onClickAway={() => {
@@ -88,7 +89,6 @@ export default function Header() {
               <div className="header__content__nav">
                 <a
                   href="#"
-                  activeclassname="active"
                   className="header__content__nav__link"
                   onClick={() => {
                     if (window.innerWidth < 1000) {
@@ -102,7 +102,6 @@ export default function Header() {
                 </a>
                 <a
                   href="#"
-                  activeclassname="active"
                   className="header__content__nav__link"
                   onClick={() => {
                     if (window.innerWidth < 1000) {
@@ -116,7 +115,6 @@ export default function Header() {
                 </a>
                 <a
                   href="#"
-                  activeclassname="active"
                   className="header__content__nav__link"
                   onClick={() => {
                     if (window.innerWidth < 1000) {
@@ -482,6 +480,12 @@ export default function Header() {
             {isCompany ? (
               <div className="header__content__overlay__content">
                 <HeaderOverlayEntry
+                  onClick={() => {
+                    setIsCompany(false);
+                    setIsExperties(false);
+                    setIsService(false);
+                  }}
+                  to="/about"
                   icon={
                     <svg
                       width="77"
@@ -520,6 +524,12 @@ export default function Header() {
                   info="We transform bold business ideas into exceptional digital products. Searching"
                 />
                 <HeaderOverlayEntry
+                  onClick={() => {
+                    setIsCompany(false);
+                    setIsExperties(false);
+                    setIsService(false);
+                  }}
+                  to="/career"
                   icon={
                     <svg
                       width="75"
