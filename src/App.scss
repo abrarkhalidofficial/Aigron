@@ -160,7 +160,6 @@ body::-webkit-scrollbar-track {
   font-size: 14px;
   color: white;
   opacity: 0;
-  
 }
 .header__content__overlay__entry:hover {
   transition: 500ms ease-in-out;
@@ -455,9 +454,9 @@ body::-webkit-scrollbar-track {
   box-shadow: 0px 10px 30px rgba(14, 14, 14, 0.1);
   margin: 2em;
   cursor: pointer;
-  min-height: 200px;
+  min-height: 250px;
   position: relative;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 // .services__card:after {
 //   content: "";
@@ -484,12 +483,10 @@ body::-webkit-scrollbar-track {
 //   box-shadow: 0px 10px 30px rgba(14, 14, 14, 0.1);
 // }
 .services__card:hover {
-  
   background-color: #3bba9c;
   fill: #000;
   color: #fff;
   transform: scale(1.05);
-
 }
 .services__card:hover::after {
   background-color: rgb(59, 186, 156, 0.5);
@@ -556,11 +553,9 @@ body::-webkit-scrollbar-track {
   cursor: pointer;
   transition: 300ms ease-in-out;
   text-align: center;
-
 }
 .expertise__content__card__svg__two {
   display: none;
-
 }
 .expertise__content__card:hover {
   background-color: #3b99a5;
@@ -579,9 +574,8 @@ body::-webkit-scrollbar-track {
   color: #fff;
   transition: 300ms ease-in-out;
 }
-.expertise__content__card__title{
+.expertise__content__card__title {
   display: none;
- 
 }
 .expertise__content__card:hover .expertise__content__card__title {
   display: flex;
@@ -589,7 +583,6 @@ body::-webkit-scrollbar-track {
 .expertise__content__card__heading {
   font-weight: bold;
   margin: 10px 0px;
-
 }
 .office {
   width: 100%;
@@ -928,34 +921,30 @@ body::-webkit-scrollbar-track {
   display: inline;
 }
 
-
-.office__content__button__one:hover{
-  background:  #4bd89990;
+.office__content__button__one:hover {
+  background: #4bd89990;
   transition: 400ms ease-in-out;
 }
-.office__content__button__two:hover{
-  background:  #4bd89990;
+.office__content__button__two:hover {
+  background: #4bd89990;
   transition: 400ms ease-in-out;
 }
-.office__content__button__three:hover{
-  background:  #4bd89990;
+.office__content__button__three:hover {
+  background: #4bd89990;
   transition: 400ms ease-in-out;
 }
-.office__content__button__four:hover{
-  background:  #4bd89990;
+.office__content__button__four:hover {
+  background: #4bd89990;
   transition: 400ms ease-in-out;
 }
-.office__content__button__five:hover{
-  background:  #4bd89990;
+.office__content__button__five:hover {
+  background: #4bd89990;
   transition: 400ms ease-in-out;
 }
-.office__content__button__six:hover{
-  background:  #4bd8999e;
+.office__content__button__six:hover {
+  background: #4bd8999e;
   transition: 400ms ease-in-out;
 }
-
-
-
 
 .form {
   width: 100%;
@@ -986,7 +975,7 @@ body::-webkit-scrollbar-track {
   padding: 1.3em;
   position: absolute;
   top: 8%;
-  margin: 1em ;
+  margin: 1em;
   left: 50%;
   box-shadow: 0px 10px 30px rgb(14, 14, 14, 0.1);
   border-radius: 18px;
@@ -1100,11 +1089,11 @@ body::-webkit-scrollbar-track {
   font-size: 25px;
   font-weight: bold;
   color: #5378de;
-  margin: 0.5em ;
+  margin: 0.5em;
   margin-right: 3em;
   width: 80%;
 }
-.footer__right__all__tags{
+.footer__right__all__tags {
   margin-left: -5px;
 }
 .footer__right__content__tag {
@@ -1122,7 +1111,7 @@ body::-webkit-scrollbar-track {
 .footer__right__content__tag a:hover {
   color: #4c51c4;
 }
-.footer__right__input__button{
+.footer__right__input__button {
   margin-left: 10px;
 }
 .footer__right__input__button input {
@@ -1239,7 +1228,6 @@ body::-webkit-scrollbar-track {
   }
   .footer__right__heading__and__tags {
     padding: 1.5em;
-    
   }
   .footer__right__input__button input {
     padding: 1em;
@@ -1282,41 +1270,36 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 1080px) {
-  .office__content__button__one__content{
-top: 120%;
-right: -100%;
-
-z-index: 999;  
-  }
-  .office__content__button__three__content{
-top: -240%;
-right: -120%;
-z-index: 999;  
-
-  }
-  .office__content__button__four__content{
-top: 120%;
-right: -120%;
-z-index: 999;  
-
-  }
-  .office__content__button__five__content{
-top: 120%;
-right: -130%;
-z-index: 999;  
-
-  }
-  .office__content__button__six__content{
+  .office__content__button__one__content {
     top: 120%;
     right: -100%;
-    z-index: 999;  
 
+    z-index: 999;
   }
-  .office__content__button__two__content{
+  .office__content__button__three__content {
     top: -240%;
     right: -120%;
- z-index: 999;    
-
+    z-index: 999;
+  }
+  .office__content__button__four__content {
+    top: 120%;
+    right: -120%;
+    z-index: 999;
+  }
+  .office__content__button__five__content {
+    top: 120%;
+    right: -130%;
+    z-index: 999;
+  }
+  .office__content__button__six__content {
+    top: 120%;
+    right: -100%;
+    z-index: 999;
+  }
+  .office__content__button__two__content {
+    top: -240%;
+    right: -120%;
+    z-index: 999;
   }
   .footer__left {
     display: none;
@@ -1589,7 +1572,6 @@ z-index: 999;
   .footer__right__input__button {
     display: flex;
     padding-bottom: 4em;
-   
   }
   .footer__background {
     display: none;
@@ -1623,57 +1605,48 @@ z-index: 999;
     left: 5%;
   }
 
-  .office__content__button__one__content{
+  .office__content__button__one__content {
     top: -40%;
     right: 50%;
     left: 40%;
 
-    z-index: 999;  
-
+    z-index: 999;
   }
 
- 
-
-  
-  .office__content__button__two__content{
+  .office__content__button__two__content {
     top: -40%;
     right: 50%;
     left: 50%;
 
-    z-index: 999;  
-
+    z-index: 999;
   }
-  .office__content__button__three__content{
+  .office__content__button__three__content {
     top: -40%;
     right: 50%;
     left: 50%;
-    z-index: 999;  
-
+    z-index: 999;
   }
-  .office__content__button__four__content{
-    top: -40%;
-    right: 50%;
-    left: 50%;
-
-    z-index: 999;  
-
-  }
-  .office__content__button__five__content{
+  .office__content__button__four__content {
     top: -40%;
     right: 50%;
     left: 50%;
 
-    z-index: 999;  
-
+    z-index: 999;
   }
-  .office__content__button__six__content{
+  .office__content__button__five__content {
+    top: -40%;
+    right: 50%;
+    left: 50%;
+
+    z-index: 999;
+  }
+  .office__content__button__six__content {
     top: -40%;
     right: 50%;
 
     left: 50%;
 
-    z-index: 999;  
-
+    z-index: 999;
   }
   .office__content__svg {
     height: 700px;

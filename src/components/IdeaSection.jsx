@@ -12,15 +12,15 @@ export function IdeaSection() {
           <img src={Idealogo} alt="Idealogo" />
         </div>
         <div className="idea__content__heading">
-          You share your idea. We get it done.
+          You share your needs. We provide.
         </div>
         <div className="idea__content__info">
-          We transform bold business ideas into exceptional digital products.
-          Searching for a partner that will take the process of software
-          development off your hands? You’ve come to the right place. We ideate,
-          design, and develop data-driven digital products made to answer
-          business challenges. We offer 360° services to smoothly guide you on
-          your way to creating a seamless digital masterpiece.
+          We are a global provider of AI and Data services, with highly
+          experienced AI and Data professionals. With offices and staff from
+          around the world, we can be close to our customers and understand
+          their needs and interact easily with them for expanding their
+          development capabilities and developing successful products in their
+          digitalization road map.
         </div>
       </div>
     </section>

@@ -9,11 +9,15 @@ export function HomeSection() {
         </div>
         <div className="home__container__content">
           <div className="home__container__heading">
-            Full-Service Software Development Company
+            Trusted partner for your AI and Data projects
           </div>
           <div className="home__container__info">
-            Build world-class digital products with a team of design,
-            development and strategy experts. All in one place
+            Get your AI and Data solutions professionally developed by our
+            senior professionals.
+          </div>
+          <div className="home__container__info">
+            Aigron experts can support your digitalization challenges or simply
+            hire professionals to work dedicated for you.
           </div>
           <div>
             <button className="home__section__buttons__btn home__section__buttons__btn__primary">

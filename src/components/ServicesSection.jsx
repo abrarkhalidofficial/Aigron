@@ -75,11 +75,17 @@ export function ServicesSection() {
             </svg>
           </div>
           <div className="services__card__heading__nd__info">
-            <div className="services__card__heading">Custom Development</div>
+            <div className="services__card__heading">
+              Hire dedicated AI / Data professionals
+            </div>
             <div className="services__card__info">
-              We transform bold business ideas into exceptional digital
-              products. Searching you’ve come to the right place. We offer 360°
-              services.
+              Expand your delivery capacity with dedicated AI and Data
+              professionals under your own management for short and long term
+              projects, or just in case capacity is required.
+            </div>
+            <div className="services__card__info">
+              Aigron offices are located worldwide from where our AI and Data
+              professionals can support you.
             </div>
           </div>
         </div>
@@ -107,11 +113,15 @@ export function ServicesSection() {
             </svg>
           </div>
           <div className="services__card__heading__nd__info">
-            <div className="services__card__heading">Dedicated Staff</div>
+            <div className="services__card__heading">Software Development</div>
             <div className="services__card__info">
-              We transform bold business ideas into exceptional digital
-              products. Searching you’ve come to the right place. We offer 360°
-              services.
+              Expand your AI and Data development capabilities within your
+              required scope by partnering with us.
+            </div>
+            <div className="services__card__info">
+              customers and understand their needs and interact easily with them
+              for expanding their development capabilities and developing
+              successful products in their digitalization road map.
             </div>
           </div>
         </div>
@@ -181,9 +191,14 @@ export function ServicesSection() {
           <div className="services__card__heading__nd__info">
             <div className="services__card__heading">Recruitment</div>
             <div className="services__card__info">
-              We transform bold business ideas into exceptional digital
-              products. Searching you’ve come to the right place. We offer 360°
-              services.
+              Expand your development capabilities by hiring the right AI and
+              Data candidate for your permanent openings.
+            </div>
+            <div className="services__card__info">
+              <div className="services__card__info">
+                Expand your development capabilities by hiring the right AI and
+                Data candidate for your permanent openings.
+              </div>
             </div>
           </div>
         </div>
