@@ -33,8 +33,8 @@ export function ExpertiseSection() {
           </div>
           <div className="expertise__content__card__svg__two">
             <svg
-                   width="50"
-                   height="50"
+              width="50"
+              height="50"
               viewBox="0 0 71 71"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -54,16 +54,21 @@ export function ExpertiseSection() {
             </svg>
           </div>
 
-          <div className="expertise__content__card__heading">
-            Artificial Intelligence
+          <div className="expertise__content__card__heading">AI</div>
+          <div className="expertise__content__card__title">
+            Aigron experts are experienced in taking your business to the next
+            level by applying Artificial Intelligence solutions. Automating
+            processes, optimizing sales, enhancing marketing efforts, engaging
+            with your customers in a better way and more creates value to your
+            business. Contact us to explore your best AI possibilities for your
+            business.
           </div>
-          <div className="expertise__content__card__title">We transform bold business ideas into exceptional digital products. Searching</div>
         </div>
         <div className="expertise__content__card">
           <div className="expertise__content__card__svg">
             <svg
-                   width="70"
-                   height="70"
+              width="70"
+              height="70"
               viewBox="0 0 75 75"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -88,8 +93,8 @@ export function ExpertiseSection() {
           </div>
           <div className="expertise__content__card__svg__two">
             <svg
-          width="50"
-          height="50"
+              width="50"
+              height="50"
               viewBox="0 0 75 75"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -112,8 +117,13 @@ export function ExpertiseSection() {
               />
             </svg>
           </div>
-          <div className="expertise__content__card__heading">AR & VR</div>
-          <div className="expertise__content__card__title">We transform bold business ideas into exceptional digital products. Searching</div>
+          <div className="expertise__content__card__heading">Data</div>
+          <div className="expertise__content__card__title">
+            Aigron experts are experienced in optimizing operations, mitigating
+            risks and turning your data into revenues by applying Data Science
+            and Data Analytics solutions powered by AI. Contact us to explore
+            your best Data solutions.
+          </div>
         </div>
         <div className="expertise__content__card">
           <div className="expertise__content__card__svg">
@@ -136,8 +146,8 @@ export function ExpertiseSection() {
           </div>{" "}
           <div className="expertise__content__card__svg__two">
             <svg
-                    width="50"
-                    height="50"
+              width="50"
+              height="50"
               viewBox="0 0 88 75"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -153,13 +163,17 @@ export function ExpertiseSection() {
             </svg>
           </div>
           <div className="expertise__content__card__heading">E-Security</div>
-          <div className="expertise__content__card__title">We transform bold business ideas into exceptional digital products. Searching</div>
+          <div className="expertise__content__card__title">
+            We have experience with making full cybersecurity plans and provide
+            ongoing management to keep your company protected. Get in touch to
+            explore your best E-Security solutions.
+          </div>
         </div>
         <div className="expertise__content__card">
           <div className="expertise__content__card__svg">
             <svg
-                   width="70"
-                   height="70"
+              width="70"
+              height="70"
               viewBox="0 0 98 89"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -183,8 +197,8 @@ export function ExpertiseSection() {
           </div>
           <div className="expertise__content__card__svg__two">
             <svg
-                        width="50"
-                        height="50"
+              width="50"
+              height="50"
               viewBox="0 0 98 89"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -200,13 +214,17 @@ export function ExpertiseSection() {
             </svg>
           </div>
           <div className="expertise__content__card__heading">E-Energy</div>
-          <div className="expertise__content__card__title">We transform bold business ideas into exceptional digital products. Searching</div>
+          <div className="expertise__content__card__title">
+            Apply Artificial Intelligence and Data to monitor, collect
+            information, control, evaluate and manage your energy consumption.
+            Get in touch to explore your possible E-Energy solutions
+          </div>
         </div>
         <div className="expertise__content__card">
           <div className="expertise__content__card__svg">
             <svg
-             width="60"
-             height="60"
+              width="60"
+              height="60"
               viewBox="0 0 57 58"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -235,8 +253,8 @@ export function ExpertiseSection() {
           </div>
           <div className="expertise__content__card__svg__two">
             <svg
-                width="50"
-                height="50"
+              width="50"
+              height="50"
               viewBox="0 0 57 58"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -263,8 +281,13 @@ export function ExpertiseSection() {
               />
             </svg>
           </div>
-          <div className="expertise__content__card__heading">Data</div>
-          <div className="expertise__content__card__title">We transform bold business ideas into exceptional digital products. Searching</div>
+          <div className="expertise__content__card__heading">VR/AR</div>
+          <div className="expertise__content__card__title">
+            Enhance your designing process, product presentation and customer
+            support with AR/VR technology. Aigron experts are experienced with
+            bringing the idea to virtual reality. Get in touch to explore your
+            possibilities regarding the application of VR/AR to your business.
+          </div>
         </div>
       </div>
     </section>
