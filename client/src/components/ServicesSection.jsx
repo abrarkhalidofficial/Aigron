@@ -85,6 +85,9 @@ export function ServicesSection() {
             <div className="services__card__info__two">
               Aigron offices are located worldwide from where our AI and Data
               professionals can support you.
+              <button className="services__card__info__two__btn">
+                Hire your professional
+              </button>
             </div>
           </div>
         </div>
@@ -122,6 +125,9 @@ export function ServicesSection() {
             <div className="services__card__info__two">
               customers and understand their needs and interact easily with them
               for expanding their development capabilities.
+              <button className="services__card__info__two__btn">
+                Hire your professional
+              </button>
             </div>
           </div>
         </div>
@@ -192,11 +198,14 @@ export function ServicesSection() {
             <div className="services__card__heading">Recruitment</div>
             <div className="services__card__info">
               Expand your development capabilities by hiring the right AI and
-              Data candidate for your permanent openings .
+              Data candidate for your permanent openings.
             </div>
             <div className="services__card__info__two">
               Expand your development capabilities by hiring the right AI and
-              Data candidate for your permanent openings .
+              Data candidate for your permanent openings.
+              <button className="services__card__info__two__btn">
+                Hire your professional
+              </button>
             </div>
           </div>
         </div>

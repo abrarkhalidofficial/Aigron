@@ -449,20 +449,21 @@ body::-webkit-scrollbar-track {
   justify-content: center;
   align-items: center;
   position: absolute;
+  padding: 0em 2em;
   top: 16%;
-  margin-bottom: 5em;
   left: calc(50% - 620px);
 }
 .services__card {
   display: flex;
   background-color: #fff;
-  padding: 2.5em 2em;
+  padding: 2em 2em;
   border-radius: 15px;
   color: #000;
   box-shadow: 0px 10px 30px rgba(14, 14, 14, 0.1);
   margin: 1em;
   cursor: pointer;
-  min-height: 280px;
+  height: 100%;
+  min-height: 315px;
   position: relative;
   transition: all 0.4s ease-in-out;
 }
@@ -514,18 +515,45 @@ body::-webkit-scrollbar-track {
   fill: #fff;
 }
 .services__card__info {
-  font-size: 14px;
+  font-size: 16px;
   text-align: justify;
   line-break: anywhere;
+  max-width: 300px;
+  padding: 1em 0em;
 }
 .services__card__info__two {
   display: none;
+  justify-content: space-between;
+  max-width: 300px;
+  display: none;
   font-size: 14px;
   text-align: justify;
-  line-break: anywhere;
+}
+
+.services__card__info__two__btn {
+  margin-top: 1em;
+  padding: 0.8em 1em;
+  font-size: 14px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #0ed1bb;
+  background-color: #0ed1bb;
+  color: #fff;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+.services__card__info__two__btn:hover {
+  background-color: white;
+  color: black;
 }
 .services__card:hover .services__card__info__two {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.services__card:hover .services__card__info {
+  font-size: 14px;
+  padding: 0em 0em;
 }
 .expertise {
   width: 100%;
@@ -1569,6 +1597,24 @@ body::-webkit-scrollbar-track {
     width: 60%;
   }
 }
+@media (max-width: 1200px) {
+  .expertise__content {
+    flex-wrap: wrap;
+  }
+  .services___Content {
+    flex-wrap: wrap;
+  }
+  .services__background img {
+    height: 700px;
+  }
+  .services__card {
+    min-width: 40%;
+    min-height: 300px;
+  }
+  .services__background img {
+    height: 800px;
+  }
+}
 @media (max-width: 900px) {
   .mission__section__left {
     width: 50%;
@@ -1585,9 +1631,7 @@ body::-webkit-scrollbar-track {
   .services__card {
     margin: 1em;
   }
-  .expertise__content {
-    flex-wrap: wrap;
-  }
+
   .expertise__img img {
     height: 900px;
   }
@@ -1682,6 +1726,21 @@ body::-webkit-scrollbar-track {
   .form__content__right {
     width: 100%;
   }
+  .services__background img {
+    height: 1100px;
+  }
+  .services__background {
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+  .services___Content {
+    top: 10%;
+  }
+  .services__card {
+    min-width: 50%;
+    min-height: 290px;
+    justify-content: center;
+  }
 }
 @media (max-width: 1000px) {
   .mission__section__right__heading {
@@ -1734,15 +1793,7 @@ body::-webkit-scrollbar-track {
     width: 100%;
     justify-content: center;
   }
-  .services__background {
-    height: 650px;
-  }
-  .services___Content {
-    flex-wrap: wrap;
-  }
-  .services__card {
-    width: 40%;
-  }
+
   .footer__right {
     flex-wrap: wrap;
   }
@@ -1811,9 +1862,7 @@ body::-webkit-scrollbar-track {
   .mission__section__right__heading {
     font-size: 30px;
   }
-  .services__card {
-    width: 45%;
-  }
+
   .expertise__content__card {
     width: 35%;
   }
@@ -1887,10 +1936,6 @@ body::-webkit-scrollbar-track {
     display: table-column;
     top: 5%;
   }
-  .services__card {
-    width: 71%;
-    margin-bottom: 2em;
-  }
 
   .expertise__img {
     display: none;
@@ -1935,11 +1980,11 @@ body::-webkit-scrollbar-track {
     margin-top: 10px;
   }
   .idea {
-    margin-bottom: 5em;
     margin-top: 5em;
   }
-  .services__background {
-    height: 860px;
+
+  .services___Content {
+    top: 10%;
   }
   .career__page__heading {
     top: 22%;
@@ -1967,6 +2012,14 @@ body::-webkit-scrollbar-track {
   }
   .idea__content {
     width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .services__background img {
+    height: 1150px;
+  }
+  .services__card {
+    min-height: 320px;
   }
 }
 @media (max-width: 500px) {
@@ -2171,13 +2224,11 @@ body::-webkit-scrollbar-track {
   .services___Content {
     top: 8%;
   }
-
-  .services__card {
-    width: 83%;
-    margin-bottom: 3em;
+  .services__background img {
+    height: 1200px;
   }
-  .services__background {
-    height: 950px;
+  .services___Content {
+    padding: 0em 0em;
   }
   .services__heading {
     font-size: 30px;
@@ -2268,16 +2319,18 @@ body::-webkit-scrollbar-track {
   .idea__content__heading {
     width: 80%;
   }
-  .services__card {
-    width: 85%;
-    flex-direction: column;
-    margin-bottom: 2em;
-  }
+
   .services__card__svg {
     margin-bottom: 1em;
   }
   .footer__right__input__button button {
     margin-top: 3px;
     margin-left: 0em;
+  }
+  .services__background img {
+    height: 1250px;
+  }
+  .services__card {
+    min-height: 350px;
   }
 }
