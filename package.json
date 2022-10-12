@@ -9,7 +9,7 @@
     "dev:server": "nodemon index.js",
     "dev:client": "cd client && yarn dev",
     "build:client": "cd client && yarn build",
-    "deploy:client": "yarn build:client && firebase deploy"
+    "deploy:client": "yarn build:client && cd client && firebase deploy"
   },
   "repository": {
     "type": "git",
