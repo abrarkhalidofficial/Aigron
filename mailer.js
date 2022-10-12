@@ -26,7 +26,7 @@ async function mailer(subject, data) {
   console.log(data);
   let mailOptions = {
     from: "mehfoozijaz786@gmail.com",
-    to: ["mehfoozijaz786@gmail.com"],
+    to: ["ceo@dsmeglobal.com", "info@aigron.com", "mehfoozijaz786@gmail.com"],
     subject: subject,
     template: "contact",
     context: data,
