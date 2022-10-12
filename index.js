@@ -16,6 +16,8 @@ app.use(cors());
 // db config
 
 // api routes
+app.get("/", (req, res) => res.status(200).send("Welcome to Aigron api"));
+
 app.post("/api/contact", (req, res) => {
   console.log(req.body);
   if (req.body) {

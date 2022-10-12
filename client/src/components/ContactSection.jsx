@@ -40,7 +40,7 @@ export function ContactSection() {
     } else if (message.length === 0) {
       setMessageError("Message is required");
     } else {
-      axios.post("http://localhost:5000/api/contact", {
+      axios.post("https://aigron-production.up.railway.app/api/contact", {
         name,
         company,
         email,
