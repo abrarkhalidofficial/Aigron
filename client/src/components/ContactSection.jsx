@@ -111,7 +111,7 @@ export function ContactSection() {
     }
   };
   return (
-    <section className="form">
+    <section className="form" id="contact">
       <div className="form__img">
         <img src={formbackground} alt="formbackground" />
       </div>
@@ -187,7 +187,6 @@ export function ContactSection() {
                       <PhoneInput
                         className="phone-input"
                         international
-                        defaultCountry="RU"
                         onChange={handlePhoneChange}
                       />
                     </div>

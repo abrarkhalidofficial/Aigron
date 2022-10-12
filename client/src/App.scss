@@ -23,7 +23,7 @@ body::-webkit-scrollbar-track {
   background-color: white;
 }
 .header__content {
-  width: 75%;
+  width: 100%;
   max-width: 1500px;
   display: flex;
   align-items: center;
@@ -211,6 +211,7 @@ body::-webkit-scrollbar-track {
   color: #fff;
   font-size: 12px;
   z-index: 1;
+  text-align: center;
 }
 
 .header__nav__link__btn .liquid {
@@ -267,11 +268,23 @@ body::-webkit-scrollbar-track {
   max-width: 1920px;
   position: relative;
 }
-.home__container__content {
+.home__container__overlay {
   position: absolute;
-  top: 20%;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.home__container__content {
+  padding: 2em;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0em auto;
+  height: 100%;
   color: #fff;
-  left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .home__container__heading {
   font-size: 40px;
@@ -463,7 +476,7 @@ body::-webkit-scrollbar-track {
   margin: 1em;
   cursor: pointer;
   height: 100%;
-  min-height: 315px;
+  min-height: 250px;
   position: relative;
   transition: all 0.4s ease-in-out;
 }
@@ -515,13 +528,14 @@ body::-webkit-scrollbar-track {
   fill: #fff;
 }
 .services__card__info {
-  font-size: 16px;
+  font-size: 14px;
   text-align: justify;
   line-break: anywhere;
   max-width: 300px;
   padding: 1em 0em;
 }
 .services__card__info__two {
+  padding-top: 1em;
   display: none;
   justify-content: space-between;
   max-width: 300px;
@@ -545,6 +559,9 @@ body::-webkit-scrollbar-track {
 .services__card__info__two__btn:hover {
   background-color: white;
   color: black;
+}
+.services__card:hover .services__card__info {
+  display: none;
 }
 .services__card:hover .services__card__info__two {
   display: flex;
@@ -588,10 +605,11 @@ body::-webkit-scrollbar-track {
   background-color: #fff;
   padding-top: 2em;
   padding: 1em;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: grid;
-  min-height: 340px;
+  flex-direction: column;
+  min-height: 280px;
   padding-bottom: 3em;
   border-radius: 15px;
   color: #000;
@@ -605,7 +623,8 @@ body::-webkit-scrollbar-track {
   padding-top: 2em;
 }
 .expertise__content__card__svg__two {
-  display: none;
+  opacity: 0;
+  height: 0px;
 }
 .expertise__content__card:hover {
   background-color: #3b99a5;
@@ -616,7 +635,8 @@ body::-webkit-scrollbar-track {
 }
 
 .expertise__content__card:hover .expertise__content__card__svg__two {
-  display: inline;
+  opacity: 1;
+  height: fit-content;
 }
 .expertise__content__card:hover .expertise__content__card__svg {
   background-color: #3b99a5;
@@ -626,15 +646,14 @@ body::-webkit-scrollbar-track {
 }
 .expertise__content__card__title {
   display: none;
-  font-size: 13px;
-  text-align: justify;
-  line-break: anywhere;
+  font-size: 12px;
+  text-align: center;
 }
 .expertise__content__card:hover .expertise__content__card__title {
   display: flex;
 }
 .expertise__content__card__heading {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
   margin: 10px 0px;
 }
@@ -1094,7 +1113,7 @@ body::-webkit-scrollbar-track {
   color: rgb(4, 4, 4);
   text-align: flex-start;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 14px;
   border: none;
   background-color: rgb(247, 247, 247);
 }
@@ -1270,11 +1289,11 @@ body::-webkit-scrollbar-track {
   position: relative;
 }
 .career__page__heading {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
   color: #fff;
   position: absolute;
-  top: 35%;
+  top: 30%;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -1285,6 +1304,8 @@ body::-webkit-scrollbar-track {
   justify-content: center;
   display: flex;
   align-items: center;
+  padding: 7em 0em;
+  overflow: hidden;
 }
 .Career__page__content__left {
   width: 90%;
@@ -1301,7 +1322,7 @@ body::-webkit-scrollbar-track {
   justify-content: center;
   align-items: center;
   display: flex;
-  font-size: 25px;
+  font-size: 16px;
   padding-bottom: 1em;
 }
 .Career__page__content__right {
@@ -1309,6 +1330,8 @@ body::-webkit-scrollbar-track {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  position: absolute;
+  right: 0px;
 }
 .Career__page__content__left__button {
   display: flex;
@@ -1333,38 +1356,29 @@ body::-webkit-scrollbar-track {
 }
 .aboutus__page {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1500px;
   margin: 0 auto;
   display: flex;
-  padding-top: 5em;
-  padding-bottom: 5em;
-  justify-content: center;
-  align-items: center;
-}
-.aboutus__page__left_text {
-  font-size: 45px;
-  font-weight: bold;
+  padding: 7em 2em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .aboutus__page__left {
-  width: 50%;
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
+  width: 40%;
+}
+.aboutus__page__left_text {
+  font-size: 30px;
+  font-weight: bold;
 }
 .aboutus__page__right {
   width: 60%;
 }
 .aboutus__page__right__info {
-  width: 60%;
   display: flex;
-  font-size: 18px;
-  font-weight: 500;
-  text-align: justify;
   margin-bottom: 2em;
+  width: 100%;
+  max-width: 700px;
 }
 .aboutus__page__right__button button {
   padding: 1em 3em;
@@ -1390,8 +1404,9 @@ body::-webkit-scrollbar-track {
   padding: 2em 0em;
 }
 .aboutusbottom img {
-  width: 100%;
+  width: calc(100% + 1em);
   height: 250px;
+  margin-left: -0.5em;
 }
 .mission__section {
   width: 100%;
@@ -1419,14 +1434,13 @@ body::-webkit-scrollbar-track {
   flex-direction: column;
 }
 .mission__section__right__heading {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
-  padding-bottom: 5px;
+  padding-bottom: 1em;
 }
 .mission__section__right__info {
-  font-size: 18px;
+  font-size: 16px;
   width: 65%;
-  text-align: justify;
 }
 .our__team {
   width: 100%;
@@ -1513,6 +1527,7 @@ body::-webkit-scrollbar-track {
   }
   .expertise__content {
     width: 90%;
+    top: 25%;
     left: 5%;
   }
   .footer__right__heading__and__tags {
@@ -1559,7 +1574,6 @@ body::-webkit-scrollbar-track {
 
 @media (max-width: 1250px) {
   .home__container__heading {
-    font-size: 36px;
     font-weight: 700;
     width: 50%;
     margin-bottom: 0.5em;
@@ -1598,6 +1612,9 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 1200px) {
+  .expertise__img img {
+    height: 1000px;
+  }
   .expertise__content {
     flex-wrap: wrap;
   }
@@ -1633,7 +1650,7 @@ body::-webkit-scrollbar-track {
   }
 
   .expertise__img img {
-    height: 900px;
+    height: 1300px;
   }
   .expertise__content__card {
     margin: 1em;
@@ -1662,10 +1679,6 @@ body::-webkit-scrollbar-track {
   .our__team__cards__card {
     width: 28%;
     margin: 1em;
-  }
-
-  .aboutus__page__right__info {
-    width: 80%;
   }
   .aboutus__page__right {
     width: 50%;
@@ -1744,7 +1757,7 @@ body::-webkit-scrollbar-track {
 }
 @media (max-width: 1000px) {
   .mission__section__right__heading {
-    font-size: 35px;
+    font-size: 30px;
   }
   .mission__section__right {
     margin: 1em;
@@ -1757,7 +1770,6 @@ body::-webkit-scrollbar-track {
     height: 350px;
   }
   .header__content__overlay {
-    min-height: 100vh;
     padding-bottom: 5em;
   }
   .header__content__overlay__content {
@@ -1826,9 +1838,6 @@ body::-webkit-scrollbar-track {
 }
 
 @media (max-width: 960px) {
-  .home__container__content {
-    left: 5%;
-  }
   .idea__content__heading {
     font-size: 30px;
   }
@@ -1868,13 +1877,12 @@ body::-webkit-scrollbar-track {
   }
   .expertise__heading {
     top: 5%;
-    left: 32%;
   }
   .expertise__content {
     top: 15%;
   }
   .expertise__img img {
-    height: 1000px;
+    height: 1200px;
   }
   .Career__page__content__left {
     text-align: center;
@@ -1894,6 +1902,7 @@ body::-webkit-scrollbar-track {
     width: 100%;
     margin-top: 10px;
     padding: 0em 2em;
+    text-align: center;
   }
   .mission__section__right__heading {
     font-size: 35px;
@@ -1906,7 +1915,7 @@ body::-webkit-scrollbar-track {
     margin-top: 2em;
   }
   .home__container__heading {
-    font-size: 38px;
+    font-size: 25px;
     width: 80%;
   }
   .aboutus__page {
@@ -1916,10 +1925,7 @@ body::-webkit-scrollbar-track {
     width: 100%;
   }
   .aboutus__page__left_text {
-    font-size: 35px;
-  }
-  .aboutus__page__right__info {
-    width: 80%;
+    text-align: center;
   }
   .aboutus__page__right {
     width: 100%;
@@ -1927,6 +1933,9 @@ body::-webkit-scrollbar-track {
     flex-direction: column;
     align-items: center;
     margin-top: 2em;
+  }
+  .aboutus__page__right__info {
+    text-align: center;
   }
 
   .home__container__info {
@@ -2049,13 +2058,14 @@ body::-webkit-scrollbar-track {
     padding: 0em 1em;
     font-size: 16px;
   }
+  .mission__section__left__img {
+    padding: 0em 1em;
+  }
   .mission__section__left__img img {
     width: 100%;
-    height: 280px;
-  }
-  .aboutus__page__right__info {
-    width: 90%;
-    font-size: 18px;
+    max-width: 300px;
+    height: fit-content;
+    aspect-ratio: 1/1;
   }
   .header__content__nav .header__nav__link__btn {
     display: flex;
@@ -2067,7 +2077,7 @@ body::-webkit-scrollbar-track {
   }
   .home__container__heading {
     width: 75%;
-    font-size: 30px;
+    font-size: 20px;
   }
   .home__container__info {
     width: 75%;
@@ -2236,9 +2246,6 @@ body::-webkit-scrollbar-track {
   .idea__content {
     left: 10%;
   }
-  .home__container__content {
-    left: 10%;
-  }
   .home__container__heading {
     font-size: 25px;
   }
@@ -2261,9 +2268,12 @@ body::-webkit-scrollbar-track {
   .office__content__heading {
     font-size: 30px;
   }
-
+  .expertise__content__card {
+    margin: 1em 1em;
+    width: 100%;
+  }
   .expertise__content__card:hover {
-    scale: 1.1;
+    scale: 1;
   }
   .footer__right__heading__and__tags {
     width: 70%;

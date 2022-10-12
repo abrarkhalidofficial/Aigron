@@ -16,9 +16,14 @@ export default function About() {
             Data domain. We are experienced with helping companies' businesses
             to the next level through digitalisation.
           </div>
-          <div className="aboutus__page__right__button">
-            <button>Let us support you</button>
-          </div>
+          <a
+            className="header__nav__link__btn"
+            title="Let us support you"
+            style={{ width: "fit-content", marginLeft: 0, display: "flex" }}
+          >
+            <span>Let us support you</span>
+            <div className="liquid"></div>
+          </a>
         </div>
       </section>
       <section className="aboutusbottom">
@@ -43,7 +48,7 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="our__team">
+      {/* <section className="our__team">
         <div className="our__team__content">
           <div className="our__team___heading">Our Team</div>
           <div className="our__team__info">
@@ -369,7 +374,7 @@ export default function About() {
         <div className="our__team__right__img">
           <img src={ourteamright} alt="ourteamright" />
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
