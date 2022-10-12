@@ -119,129 +119,134 @@ export function ContactSection() {
         <div className="form__content__left">
           <div className="form__content__heading">Get in Touch</div>
         </div>
-        <form className="form__content__right" onSubmit={handleSubmit}>
-          {success ? (
-            <div className="success">Message sent successfully</div>
-          ) : (
-            <>
-              <div className="form__content__right__heading">Let’s Talk</div>
-              <div className="form__content__right__inputs">
-                <div className="form__content__right__form">
-                  <div className="form__content__right__form__heading">
-                    Name
+        <div className="form__content__right">
+          <form
+            className="form__content__right__container"
+            onSubmit={handleSubmit}
+          >
+            {success ? (
+              <div className="success">Message sent successfully</div>
+            ) : (
+              <>
+                <div className="form__content__right__heading">Let’s Talk</div>
+                <div className="form__content__right__inputs">
+                  <div className="form__content__right__form">
+                    <div className="form__content__right__form__heading">
+                      Name
+                    </div>
+                    <div className="form__content__right__form__input">
+                      <input
+                        type="Name"
+                        placeholder=" Name"
+                        onChange={handleNameChange}
+                      />
+                    </div>
+                    <div className="form__content__right__form__heading__error">
+                      {nameError}
+                    </div>
                   </div>
-                  <div className="form__content__right__form__input">
-                    <input
-                      type="Name"
-                      placeholder=" Name"
-                      onChange={handleNameChange}
-                    />
-                  </div>
-                  <div className="form__content__right__form__heading">
-                    {nameError}
-                  </div>
-                </div>
-                <div className="form__content__right__form">
-                  <div className="form__content__right__form__heading">
-                    Company Name
-                  </div>
-                  <div className="form__content__right__form__input">
-                    <input
-                      type="Name"
-                      placeholder=" Company Name"
-                      onChange={handleCompanyChange}
-                    />
-                  </div>
-                  <div className="form__content__right__form__heading">
-                    {companyError}
-                  </div>
-                </div>
-              </div>
-              <div className="form__content__right__inputs">
-                <div className="form__content__right__form">
-                  <div className="form__content__right__form__heading">
-                    Email
-                  </div>
-                  <div className="form__content__right__form__input">
-                    <input
-                      type="email"
-                      name="emial"
-                      id="email"
-                      placeholder=" Email"
-                      onChange={handleEmailChange}
-                    />
-                  </div>
-                  <div className="form__content__right__form__heading">
-                    {emailError}
+                  <div className="form__content__right__form">
+                    <div className="form__content__right__form__heading">
+                      Company Name
+                    </div>
+                    <div className="form__content__right__form__input">
+                      <input
+                        type="Name"
+                        placeholder=" Company Name"
+                        onChange={handleCompanyChange}
+                      />
+                    </div>
+                    <div className="form__content__right__form__heading__error">
+                      {companyError}
+                    </div>
                   </div>
                 </div>
-                <div className="form__content__right__form">
-                  <div className="form__content__right__form__heading">
-                    Mobile
+                <div className="form__content__right__inputs">
+                  <div className="form__content__right__form">
+                    <div className="form__content__right__form__heading">
+                      Email
+                    </div>
+                    <div className="form__content__right__form__input">
+                      <input
+                        type="email"
+                        name="emial"
+                        id="email"
+                        placeholder=" Email"
+                        onChange={handleEmailChange}
+                      />
+                    </div>
+                    <div className="form__content__right__form__heading__error">
+                      {emailError}
+                    </div>
                   </div>
-                  <div className="form__content__right__form__input__phone">
-                    <PhoneInput
-                      className="phone-input"
-                      international
-                      defaultCountry="RU"
-                      onChange={handlePhoneChange}
-                    />
-                  </div>
-                  <div className="form__content__right__form__heading">
-                    {phoneError}
-                  </div>
-                </div>
-              </div>
-              <div className="form__content__right__inputs">
-                <div className="form__content__right__form">
-                  <div className="form__content__right__form__heading">
-                    Subject
-                  </div>
-                  <div className="form__content__right__form__input">
-                    <input
-                      type="text"
-                      name="text"
-                      id="text"
-                      placeholder=" Subject"
-                      onChange={handleSubjectChange}
-                    />
-                  </div>
-                  <div className="form__content__right__form__heading">
-                    {subjectError}
-                  </div>
-                </div>
-              </div>
-              <div className="form__content__right__inputs">
-                <div className="form__content__right__form">
-                  <div className="form__content__right__form__heading">
-                    How can we help you ?
-                  </div>
-                  <div className="form__content__right__form__input">
-                    <textarea
-                      cols="30"
-                      rows="10"
-                      name="text"
-                      id="text"
-                      placeholder=" Give Some Details About Your Project"
-                      onChange={handleMessageChange}
-                    ></textarea>
-                  </div>
-                  <div className="form__content__right__form__heading">
-                    {messageError}
+                  <div className="form__content__right__form">
+                    <div className="form__content__right__form__heading">
+                      Mobile
+                    </div>
+                    <div className="form__content__right__form__input__phone">
+                      <PhoneInput
+                        className="phone-input"
+                        international
+                        defaultCountry="RU"
+                        onChange={handlePhoneChange}
+                      />
+                    </div>
+                    <div className="form__content__right__form__heading__error">
+                      {phoneError}
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="contact__form__btn">
-                <button
-                  type="submit"
-                  className="home__section__buttons__btn home__section__buttons__btn__secondary"
-                >
-                  Submit
-                </button>
-              </div>
-            </>
-          )}
-        </form>
+                <div className="form__content__right__inputs">
+                  <div className="form__content__right__form">
+                    <div className="form__content__right__form__heading">
+                      Subject
+                    </div>
+                    <div className="form__content__right__form__input">
+                      <input
+                        type="text"
+                        name="text"
+                        id="text"
+                        placeholder=" Subject"
+                        onChange={handleSubjectChange}
+                      />
+                    </div>
+                    <div className="form__content__right__form__heading__error">
+                      {subjectError}
+                    </div>
+                  </div>
+                </div>
+                <div className="form__content__right__inputs">
+                  <div className="form__content__right__form">
+                    <div className="form__content__right__form__heading">
+                      How can we help you ?
+                    </div>
+                    <div className="form__content__right__form__input">
+                      <textarea
+                        cols="30"
+                        rows="6"
+                        name="text"
+                        id="text"
+                        placeholder=" Give Some Details About Your Project"
+                        onChange={handleMessageChange}
+                      ></textarea>
+                    </div>
+                    <div className="form__content__right__form__heading__error">
+                      {messageError}
+                    </div>
+                  </div>
+                </div>
+                <div className="contact__form__btn">
+                  <button
+                    type="submit"
+                    className="home__section__buttons__btn home__section__buttons__btn__secondary"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </>
+            )}
+          </form>
+        </div>
       </div>
     </section>
   );
