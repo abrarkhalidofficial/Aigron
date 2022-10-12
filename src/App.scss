@@ -276,7 +276,7 @@ body::-webkit-scrollbar-track {
 .home__container__heading {
   font-size: 40px;
   font-weight: 700;
-  width: 70%;
+  width: 59%;
 
   margin-bottom: 0.5em;
 }
@@ -396,7 +396,7 @@ body::-webkit-scrollbar-track {
   margin: 1em;
 }
 .idea__content__heading {
-  font-size: 30px;
+  font-size: 32px;
   width: 50%;
 
   font-weight: bold;
@@ -539,7 +539,7 @@ body::-webkit-scrollbar-track {
 .expertise__heading {
   position: absolute;
   top: 15%;
-  left: 42%;
+  left: 45%;
   font-size: 30px;
   font-weight: bold;
   color: #fff;
@@ -573,6 +573,9 @@ body::-webkit-scrollbar-track {
   transition: 300ms ease-in-out;
   text-align: center;
 }
+.expertise__content__card__svg {
+  padding-top: 2em;
+}
 .expertise__content__card__svg__two {
   display: none;
 }
@@ -603,6 +606,7 @@ body::-webkit-scrollbar-track {
   display: flex;
 }
 .expertise__content__card__heading {
+  font-size: 22px;
   font-weight: bold;
   margin: 10px 0px;
 }
@@ -1144,7 +1148,7 @@ body::-webkit-scrollbar-track {
 .footer__right__input__button button {
   padding: 1em;
   margin-top: 7px;
-  margin-left: 9em;
+  // margin-left: 9em;
   outline: none;
   border-radius: 50px;
   background: linear-gradient(90deg, #4bd899 0%, #5378de 100%);
@@ -1707,6 +1711,16 @@ body::-webkit-scrollbar-track {
   .row {
     display: none;
   }
+  .Career__page__content__right {
+    display: none;
+  }
+  .Career__page__content__section {
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+  .career__page__img img {
+    height: 350px;
+  }
 }
 
 @media (max-width: 960px) {
@@ -1731,6 +1745,7 @@ body::-webkit-scrollbar-track {
   }
   .form__content__heading {
     font-size: 30px;
+    display: none;
   }
 }
 @media (max-width: 860px) {
@@ -1766,6 +1781,9 @@ body::-webkit-scrollbar-track {
   }
   .expertise__img img {
     height: 1000px;
+  }
+  .Career__page__content__left {
+    text-align: center;
   }
 }
 @media (max-width: 750px) {
@@ -1884,6 +1902,13 @@ body::-webkit-scrollbar-track {
 @media (max-width: 750px) {
   .services__background {
     height: 860px;
+  }
+  .career__page__heading {
+    top: 22%;
+    font-size: 40px;
+  }
+  .career__page__img img {
+    height: 230px;
   }
 }
 @media (max-width: 600px) {
@@ -2115,7 +2140,7 @@ body::-webkit-scrollbar-track {
     margin-bottom: 3em;
   }
   .services__background {
-    height: 850px;
+    height: 950px;
   }
   .services__heading {
     font-size: 30px;
@@ -2163,6 +2188,20 @@ body::-webkit-scrollbar-track {
   }
   .header__content__overlay__content {
     padding: 1em 2em;
+  }
+  .Career__page__content__left__heading {
+    font-size: 28px;
+  }
+  .Career__page__content__left__info {
+    font-size: 20px;
+  }
+  .career__page__img img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .career__page__heading {
+    top: 22%;
   }
 }
 @media (max-width: 400px) {

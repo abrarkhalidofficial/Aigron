@@ -71,7 +71,7 @@ export function ContactSection() {
           <div className="form__content__right__inputs">
             <div className="form__content__right__form">
               <div className="form__content__right__form__heading">
-                How Can We help You ?
+                How can we help you ?
               </div>
               <div className="form__content__right__form__input">
                 <input
