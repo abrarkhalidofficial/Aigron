@@ -1,32 +1,36 @@
 {
-  "name": "salon",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "aigron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "concurrently \"yarn dev:server\" \"yarn dev:client\"",
+    "start": "node index.js",
+    "dev:server": "nodemon index.js",
+    "dev:client": "cd client && yarn dev",
+    "build:client": "cd client && yarn build",
+    "deploy:client": "yarn build:client && firebase deploy"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrarkhalidofficial/Aigron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abrarkhalidofficial/Aigron/issues"
+  },
+  "homepage": "https://github.com/abrarkhalidofficial/Aigron#readme",
   "dependencies": {
-    "react": "^18.2.0",
-    "react-click-away-listener": "^2.2.2",
-    "react-dom": "^18.2.0",
-    "react-feather": "^2.0.10",
-    "react-phone-number-input": "^3.2.11",
-    "react-reveal": "^1.2.2",
-    "react-router-dom": "^6.4.2"
+    "concurrently": "^7.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemailer": "^6.8.0",
+    "nodemailer-express-handlebars": "^5.0.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.21",
-    "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^2.1.0",
-    "sass": "^1.55.0",
-    "vite": "^3.1.6",
-    "vite-imagetools": "^4.0.9",
-    "vite-plugin-chunk-split": "^0.4.0",
-    "vite-plugin-compression": "^0.5.1",
-    "vite-plugin-imagemin": "^0.6.1",
-    "vite-plugin-webfont-dl": "^3.1.1"
+    "nodemon": "^2.0.20"
   }
 }
