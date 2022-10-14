@@ -384,6 +384,12 @@ export default function Header() {
               <div className="header__content__overlay__content">
                 <HeaderOverlayEntry
                   small
+                  onClick={() => {
+                    setIsExperties(false);
+                    document
+                      .getElementById("contact")
+                      .scrollIntoView({ behavior: "smooth" });
+                  }}
                   icon={
                     <svg
                       width="71"
@@ -409,6 +415,12 @@ export default function Header() {
                   title="AI"
                 />
                 <HeaderOverlayEntry
+                  onClick={() => {
+                    setIsExperties(false);
+                    document
+                      .getElementById("contact")
+                      .scrollIntoView({ behavior: "smooth" });
+                  }}
                   small
                   icon={
                     <svg
@@ -443,6 +455,12 @@ export default function Header() {
                   title="Data"
                 />
                 <HeaderOverlayEntry
+                  onClick={() => {
+                    setIsExperties(false);
+                    document
+                      .getElementById("contact")
+                      .scrollIntoView({ behavior: "smooth" });
+                  }}
                   small
                   icon={
                     <svg
@@ -473,6 +491,12 @@ export default function Header() {
                   title="AR & VR"
                 />
                 <HeaderOverlayEntry
+                  onClick={() => {
+                    setIsExperties(false);
+                    document
+                      .getElementById("contact")
+                      .scrollIntoView({ behavior: "smooth" });
+                  }}
                   small
                   icon={
                     <svg
@@ -495,6 +519,12 @@ export default function Header() {
                   title="E-Security"
                 />
                 <HeaderOverlayEntry
+                  onClick={() => {
+                    setIsExperties(false);
+                    document
+                      .getElementById("contact")
+                      .scrollIntoView({ behavior: "smooth" });
+                  }}
                   small
                   icon={
                     <svg
