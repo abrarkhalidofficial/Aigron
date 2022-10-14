@@ -195,6 +195,12 @@ export default function Header() {
             {isService ? (
               <div className="header__content__overlay__content">
                 <HeaderOverlayEntry
+                  onClick={() => {
+                    setIsService(false);
+                    document
+                      .getElementById("contact")
+                      .scrollIntoView({ behavior: "smooth" });
+                  }}
                   icon={
                     <svg
                       width="52"
@@ -262,6 +268,12 @@ export default function Header() {
                   term projects, or just in case capacity is required."
                 />
                 <HeaderOverlayEntry
+                  onClick={() => {
+                    setIsService(false);
+                    document
+                      .getElementById("contact")
+                      .scrollIntoView({ behavior: "smooth" });
+                  }}
                   icon={
                     <svg
                       width="57"
@@ -288,6 +300,12 @@ export default function Header() {
                   info="Partner with us to take the process of Al and Data development off your hands."
                 />
                 <HeaderOverlayEntry
+                  onClick={() => {
+                    setIsService(false);
+                    document
+                      .getElementById("contact")
+                      .scrollIntoView({ behavior: "smooth" });
+                  }}
                   icon={
                     <svg
                       width="61"

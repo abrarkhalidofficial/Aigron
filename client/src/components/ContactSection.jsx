@@ -13,6 +13,8 @@ export function ContactSection() {
   const [emailError, setEmailError] = useState("");
   const [phone, setPhone] = useState("");
   const [phoneError, setPhoneError] = useState("");
+  const [category, setCategory] = useState("");
+  const [categoryError, setCategoryError] = useState("");
   const [subject, setSubject] = useState("");
   const [subjectError, setSubjectError] = useState("");
   const [message, setMessage] = useState("");
@@ -35,6 +37,8 @@ export function ContactSection() {
       setEmailError("Email is required");
     } else if (phone === undefined) {
       setPhoneError("Phone is required");
+    } else if (category.length === 0) {
+      setCategoryError("Subject is required");
     } else if (subject.length === 0) {
       setSubjectError("Subject is required");
     } else if (message.length === 0) {
@@ -45,6 +49,7 @@ export function ContactSection() {
         company,
         email,
         phone,
+        category,
         subject,
         message,
       });
@@ -54,6 +59,7 @@ export function ContactSection() {
         setCompany("");
         setEmail("");
         setPhone("");
+        setCategory("");
         setSubject("");
         setMessage("");
         console.log("submitted");
@@ -90,6 +96,14 @@ export function ContactSection() {
     } else {
       setPhone(e);
       setPhoneError("");
+    }
+  };
+  const handleCategoryChange = (e) => {
+    if (e.target.value.length === 0) {
+      setCategoryError("Category is required");
+    } else {
+      setCategory(e.target.value);
+      setCategoryError("");
     }
   };
   const handleSubjectChange = (e) => {
@@ -196,6 +210,29 @@ export function ContactSection() {
                   </div>
                 </div>
                 <div className="form__content__right__inputs">
+                  <div className="form__content__right__form">
+                    <div className="form__content__right__form__heading">
+                      Category
+                    </div>
+                    <div className="form__content__right__form__input">
+                      <input
+                        type="text"
+                        list="categories"
+                        name="category"
+                        id="category"
+                        placeholder="Category"
+                        onChange={handleCategoryChange}
+                      />
+                      <datalist id="categories">
+                        <option value="Hire Professionals" />
+                        <option value="Software development" />
+                        <option value="Recuitment" />
+                      </datalist>
+                    </div>
+                    <div className="form__content__right__form__heading__error">
+                      {categoryError}
+                    </div>
+                  </div>
                   <div className="form__content__right__form">
                     <div className="form__content__right__form__heading">
                       Subject

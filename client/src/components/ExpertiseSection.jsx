@@ -55,7 +55,7 @@ export function ExpertiseSection() {
           </div>
           <div className="expertise__content__card__heading">AI</div>
           <div className="expertise__content__card__title">
-            Aigronexperts are experienced in taking your business to the next
+            Aigron experts are experienced in taking your business to the next
             level by applying Artificial Intelligence solutions. Automating
             processes, optimizing sales, enhancing marketing efforts, engaging
             with your customers.
