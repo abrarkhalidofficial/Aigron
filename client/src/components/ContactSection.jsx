@@ -12,11 +12,8 @@ export function ContactSection() {
   const [email, setEmail] = useState("");
   const [emailError, setEmailError] = useState("");
   const [phone, setPhone] = useState("");
-  const [phoneError, setPhoneError] = useState("");
   const [category, setCategory] = useState("");
   const [categoryError, setCategoryError] = useState("");
-  const [subject, setSubject] = useState("");
-  const [subjectError, setSubjectError] = useState("");
   const [message, setMessage] = useState("");
   const [messageError, setMessageError] = useState("");
   const [success, setSuccess] = useState(false);
@@ -35,12 +32,8 @@ export function ContactSection() {
       setCompanyError("Company is required");
     } else if (email.length === 0) {
       setEmailError("Email is required");
-    } else if (phone === undefined) {
-      setPhoneError("Phone is required");
     } else if (category.length === 0) {
       setCategoryError("Subject is required");
-    } else if (subject.length === 0) {
-      setSubjectError("Subject is required");
     } else if (message.length === 0) {
       setMessageError("Message is required");
     } else {
@@ -50,7 +43,6 @@ export function ContactSection() {
         email,
         phone,
         category,
-        subject,
         message,
       });
       setTimeout(() => {
@@ -60,7 +52,6 @@ export function ContactSection() {
         setEmail("");
         setPhone("");
         setCategory("");
-        setSubject("");
         setMessage("");
         console.log("submitted");
       }, 1000);
@@ -91,12 +82,7 @@ export function ContactSection() {
     }
   };
   const handlePhoneChange = (e) => {
-    if (e?.length === 0) {
-      setPhoneError("Phone is required");
-    } else {
-      setPhone(e);
-      setPhoneError("");
-    }
+    setPhone(e);
   };
   const handleCategoryChange = (e) => {
     if (e.target.value.length === 0) {
@@ -106,14 +92,7 @@ export function ContactSection() {
       setCategoryError("");
     }
   };
-  const handleSubjectChange = (e) => {
-    if (e.target.value.length === 0) {
-      setSubjectError("Subject is required");
-    } else {
-      setSubject(e.target.value);
-      setSubjectError("");
-    }
-  };
+
   const handleMessageChange = (e) => {
     if (e.target.value.length === 0) {
       setMessageError("Message is required");
@@ -195,7 +174,7 @@ export function ContactSection() {
                   </div>
                   <div className="form__content__right__form">
                     <div className="form__content__right__form__heading">
-                      Mobile
+                      Mobile (optional)
                     </div>
                     <div className="form__content__right__form__input__phone">
                       <PhoneInput
@@ -204,15 +183,12 @@ export function ContactSection() {
                         onChange={handlePhoneChange}
                       />
                     </div>
-                    <div className="form__content__right__form__heading__error">
-                      {phoneError}
-                    </div>
                   </div>
                 </div>
                 <div className="form__content__right__inputs">
                   <div className="form__content__right__form">
                     <div className="form__content__right__form__heading">
-                      Category
+                      Subject
                     </div>
                     <div className="form__content__right__form__input">
                       <input
@@ -220,7 +196,7 @@ export function ContactSection() {
                         list="categories"
                         name="category"
                         id="category"
-                        placeholder="Category"
+                        placeholder="Subject"
                         onChange={handleCategoryChange}
                       />
                       <datalist id="categories">
@@ -231,23 +207,6 @@ export function ContactSection() {
                     </div>
                     <div className="form__content__right__form__heading__error">
                       {categoryError}
-                    </div>
-                  </div>
-                  <div className="form__content__right__form">
-                    <div className="form__content__right__form__heading">
-                      Subject
-                    </div>
-                    <div className="form__content__right__form__input">
-                      <input
-                        type="text"
-                        name="text"
-                        id="text"
-                        placeholder=" Subject"
-                        onChange={handleSubjectChange}
-                      />
-                    </div>
-                    <div className="form__content__right__form__heading__error">
-                      {subjectError}
                     </div>
                   </div>
                 </div>
