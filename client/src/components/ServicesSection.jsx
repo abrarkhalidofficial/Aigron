@@ -86,9 +86,9 @@ export function ServicesSection() {
             <div className="services__card__info__two">
               Aigron offices are located worldwide from where our AI and Data
               professionals can support you.
-              <button className="services__card__info__two__btn">
+              <a href="#contact" className="services__card__info__two__btn">
                 Hire your professional
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -127,9 +127,9 @@ export function ServicesSection() {
               Aigron has professionals and project managers with different
               expertise to take the process of AI and Data projects off your
               hands.
-              <button className="services__card__info__two__btn">
+              <a href="#contact" className="services__card__info__two__btn">
                 Get an inquiry
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -205,9 +205,9 @@ export function ServicesSection() {
             <div className="services__card__info__two">
               With our Recruitment services we can find you the right candidate
               from our wide network of professionals.
-              <button className="services__card__info__two__btn">
+              <a href="#contact" className="services__card__info__two__btn">
                 Recruit now
-              </button>
+              </a>
             </div>
           </div>
         </div>

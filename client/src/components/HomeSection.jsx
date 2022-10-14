@@ -21,9 +21,12 @@ export function HomeSection() {
               simply hire professionals to work dedicated for you.
             </div>
             <div>
-              <button className="home__section__buttons__btn home__section__buttons__btn__primary">
+              <a
+                href="#contact"
+                className="home__section__buttons__btn home__section__buttons__btn__primary"
+              >
                 Let us support you
-              </button>
+              </a>
             </div>
           </div>
         </div>
