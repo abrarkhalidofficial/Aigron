@@ -392,8 +392,7 @@ body::-webkit-scrollbar-track {
 .contact__form__btn {
   display: flex;
   justify-content: end;
-  margin-right: 1.3em;
-  margin-top: 20px;
+  margin-right: 0.5em;
   margin-bottom: 10px;
 }
 .idea__content {
@@ -681,6 +680,9 @@ body::-webkit-scrollbar-track {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.office__content__svg img {
+  max-width: 100%;
 }
 .office__content__button__one {
   width: 80px;
@@ -1118,6 +1120,17 @@ body::-webkit-scrollbar-track {
   border: none;
   background-color: rgb(247, 247, 247);
 }
+.form__content__right__form__input select {
+  width: 100%;
+  height: 45px;
+  padding: 0px 1em;
+  color: rgb(4, 4, 4);
+  text-align: flex-start;
+  border-radius: 10px;
+  font-size: 14px;
+  border: none;
+  background-color: rgb(247, 247, 247);
+}
 .form__content__right__form__input textarea {
   width: 100%;
   height: 100%;
@@ -1146,6 +1159,17 @@ body::-webkit-scrollbar-track {
   background-color: rgb(247, 247, 247);
   padding-left: 4em;
 }
+.form__content__right__form__input__phone select {
+  width: 100%;
+  padding: 1em 1.5em;
+  height: 45px;
+  color: rgb(180, 175, 175);
+  text-align: flex-start;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(247, 247, 247);
+  padding-left: 4em;
+}
 .form__content__right__form__input .PhoneInput {
   margin-left: 0.5em;
 }
@@ -1155,7 +1179,12 @@ body::-webkit-scrollbar-track {
 .form__content__right__form__input__phone input:focus {
   outline: 1px solid #5378de;
 }
-
+.form__content__right__form__input select:focus {
+  outline: 1px solid #5378de;
+}
+.form__content__right__form__input__phone select:focus {
+  outline: 1px solid #5378de;
+}
 .form__content__right__button {
   display: flex;
   justify-content: flex-end;
@@ -2135,24 +2164,24 @@ body::-webkit-scrollbar-track {
   }
   .office__content__button__two {
     top: 21%;
-    left: 3%;
+    left: 40%;
   }
   .office__content__button__three {
     top: 32%;
-    left: 0%;
+    left: 20%;
   }
 
   .office__content__button__four {
     top: 44%;
-    left: 0%;
+    left: 50%;
   }
   .office__content__button__five {
     top: 55%;
-    left: 1%;
+    left: 29%;
   }
   .office__content__button__six {
     top: 65%;
-    left: 5%;
+    left: 40%;
   }
 
   .office__content__button__one__content {
@@ -2200,6 +2229,9 @@ body::-webkit-scrollbar-track {
   }
   .office__content__svg {
     height: 700px;
+  }
+  .office__content__svg img {
+    max-width: fit-content;
   }
   .form {
     margin-top: 0em;
@@ -2302,35 +2334,9 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 400px) {
-  .office__content__button__one {
-    top: 11%;
-    left: 1%;
-  }
-  .office__content__button__two {
-    top: 21%;
-    left: -3%;
-  }
-  .office__content__button__three {
-    top: 32%;
-    left: -3%;
-  }
-
-  .office__content__button__four {
-    top: 44%;
-    left: -3%;
-  }
-  .office__content__button__five {
-    top: 55%;
-    left: -3%;
-  }
-  .office__content__button__six {
-    top: 65%;
-    left: -3%;
-  }
   .idea__content__heading {
     width: 80%;
   }
-
   .services__card__svg {
     margin-bottom: 1em;
   }

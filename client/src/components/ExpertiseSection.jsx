@@ -8,7 +8,7 @@ export function ExpertiseSection() {
       </div>
       <div className="expertise__heading">Expertise</div>
       <div className="expertise__content">
-        <a href="#contact" className="expertise__content__card">
+        <div className="expertise__content__card">
           <div className="expertise__content__card__svg">
             <svg
               width="71"
@@ -60,8 +60,8 @@ export function ExpertiseSection() {
             processes, optimizing sales, enhancing marketing efforts, engaging
             with your customers.
           </div>
-        </a>
-        <a href="#contact" className="expertise__content__card">
+        </div>
+        <div className="expertise__content__card">
           <div className="expertise__content__card__svg">
             <svg
               width="70"
@@ -121,8 +121,8 @@ export function ExpertiseSection() {
             and Data Analytics solutions powered by AI. Contact us to explore
             your best Data solutions.
           </div>
-        </a>
-        <a href="#contact" className="expertise__content__card">
+        </div>
+        <div className="expertise__content__card">
           <div className="expertise__content__card__svg">
             <svg
               width="88"
@@ -165,8 +165,8 @@ export function ExpertiseSection() {
             ongoing management to keep your company protected. Get in touch to
             explore your best E-Security solutions.
           </div>
-        </a>
-        <a href="#contact" className="expertise__content__card">
+        </div>
+        <div className="expertise__content__card">
           <div className="expertise__content__card__svg">
             <svg
               width="70"
@@ -216,8 +216,8 @@ export function ExpertiseSection() {
             information, control, evaluate and manage your energy consumption.
             Get in touch to explore your possible E-Energy solutions
           </div>
-        </a>
-        <a href="#contact" className="expertise__content__card">
+        </div>
+        <div className="expertise__content__card">
           <div className="expertise__content__card__svg">
             <svg
               width="60"
@@ -285,7 +285,7 @@ export function ExpertiseSection() {
             bringing the idea to virtual reality. Get in touch to explore your
             possibilities regarding the application.
           </div>
-        </a>
+        </div>
       </div>
     </section>
   );

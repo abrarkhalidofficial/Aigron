@@ -191,19 +191,18 @@ export function ContactSection() {
                       Subject
                     </div>
                     <div className="form__content__right__form__input">
-                      <input
-                        type="text"
-                        list="categories"
-                        name="category"
-                        id="category"
+                      <select
                         placeholder="Subject"
                         onChange={handleCategoryChange}
-                      />
-                      <datalist id="categories">
-                        <option value="Hire Professionals" />
-                        <option value="Software development" />
-                        <option value="Recuitment" />
-                      </datalist>
+                      >
+                        <option value="Hire Professionals">
+                          Hire Professionals
+                        </option>
+                        <option value="Software development">
+                          Software development
+                        </option>
+                        <option value="Recuitment">Recuitment</option>
+                      </select>
                     </div>
                     <div className="form__content__right__form__heading__error">
                       {categoryError}
