@@ -2257,10 +2257,10 @@ keyv@3.0.0:
   dependencies:
     json-buffer "3.0.0"
 
-libphonenumber-js@^1.10.13:
-  version "1.10.13"
-  resolved "https://registry.npmjs.org/libphonenumber-js/-/libphonenumber-js-1.10.13.tgz"
-  integrity sha512-b74iyWmwb4GprAUPjPkJ11GTC7KX4Pd3onpJfKxYyY8y9Rbb4ERY47LvCMEDM09WD3thiLDMXtkfDK/AX+zT7Q==
+libphonenumber-js@^1.10.14:
+  version "1.10.14"
+  resolved "https://registry.yarnpkg.com/libphonenumber-js/-/libphonenumber-js-1.10.14.tgz#e29da7f539751f724ac54017a098e3c7ca23de94"
+  integrity sha512-McGS7GV/WjJ2KjfOGhJU1oJn29RYeo7Q+RpANRbUNMQ9gj5XArpbjurSuyYPTejFwbaUojstQ4XyWCrAzGOUXw==
 
 load-json-file@^1.0.0:
   version "1.1.0"
@@ -2714,7 +2714,7 @@ pend@~1.2.0:
   resolved "https://registry.yarnpkg.com/pend/-/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
   integrity sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==
 
-picocolors@^1.0.0:
+picocolors@^1.0, picocolors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
   integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
@@ -2883,15 +2883,15 @@ react-is@^16.13.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-phone-number-input@^3.2.11:
-  version "3.2.11"
-  resolved "https://registry.npmjs.org/react-phone-number-input/-/react-phone-number-input-3.2.11.tgz"
-  integrity sha512-fcY6KHCqG9qDzlUhuCj0QdP1/THW6lUu9UwuOEfFQU/eRhPasv52DzBINRRrhVPJ/N2qsbSShKBt3WX0Igu3Lw==
+react-phone-number-input@^3.2.12:
+  version "3.2.12"
+  resolved "https://registry.yarnpkg.com/react-phone-number-input/-/react-phone-number-input-3.2.12.tgz#9ddf4366af1e6d0f3f2345063733ed3e83e82cd3"
+  integrity sha512-bqfg4iz4KWIkCGi7nV69CG90iX9EZ5wBXKoMnoyw7NDv/e2KH2uobDSLHXC4HydUgB+InjERxRdbdWTBbEff2w==
   dependencies:
     classnames "^2.3.1"
     country-flag-icons "^1.5.4"
     input-format "^0.3.8"
-    libphonenumber-js "^1.10.13"
+    libphonenumber-js "^1.10.14"
     prop-types "^15.8.1"
 
 react-refresh@^0.14.0:
@@ -3564,13 +3564,14 @@ vite-plugin-imagemin@^0.6.1:
     jpegtran-bin "^6.0.1"
     pathe "^0.2.0"
 
-vite-plugin-webfont-dl@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-webfont-dl/-/vite-plugin-webfont-dl-3.2.1.tgz#a49e14696bb5b3921eca04b3b25eade61f12bf1e"
-  integrity sha512-wUOXwkWm4tjmPtcvADF/sA6kCoPo4oorRIVmSyih6DNZgs9eb8RxgMepHS5j2r6jUQfdMDbMNfF611zH4Z+0Lg==
+vite-plugin-webfont-dl@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-webfont-dl/-/vite-plugin-webfont-dl-3.3.0.tgz#ab8e3f544cedc2555a6387c8f747ad35f78a2916"
+  integrity sha512-20aTx2F8uLfreMUarHhgskC+9B/ZpLOAssuOyw2YqVqhdQXAk3/Py8i7e2rR8GfmTeR8Klt+M7v6Y4tneStcEQ==
   dependencies:
     axios "^0.25"
     clean-css "^5.3"
+    picocolors "^1.0"
 
 vite@^3.1.8:
   version "3.1.8"
