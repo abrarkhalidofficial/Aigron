@@ -264,7 +264,7 @@ export default function Header() {
                     </svg>
                   }
                   title="Hire Professionals"
-                  info="Aigron can provide you with (remote) Al and Data professionals for short and long
+                  info="Aigron can provide you with Al and Data professionals for short and long
                   term projects, or just in case capacity is required."
                 />
                 <HeaderOverlayEntry

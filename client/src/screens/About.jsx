@@ -20,7 +20,13 @@ export default function About() {
           <a
             className="home__section__buttons__btn home__section__buttons__btn__primary"
             title="Let us support you"
-            style={{ width: "fit-content", marginLeft: 0, display: "flex" }}
+            href="#contact"
+            style={{
+              width: "fit-content",
+              marginLeft: 0,
+              display: "flex",
+              boxShadow: "0px 10px 30px rgba(0,0,0,.1)",
+            }}
           >
             <span>Let us support you</span>
           </a>
