@@ -1,5 +1,5 @@
 import footerleft from "../assets/footer-left.png";
-import footerbackground from "../assets/footer-background.png";
+import footerbackground from "../assets/footer-background.gif";
 
 export function Footer() {
   return (

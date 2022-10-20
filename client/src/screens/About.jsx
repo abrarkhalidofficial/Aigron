@@ -1,6 +1,7 @@
 import missionsection from "../assets/mission-section.png";
 import aboutusbottom from "../assets/about-us-bottom.png";
 import ourteamright from "../assets/ourteam-right.png";
+import { ContactSection } from "../components/ContactSection";
 
 export default function About() {
   return (
@@ -17,18 +18,15 @@ export default function About() {
             to the next level through digitalisation.
           </div>
           <a
-            className="header__nav__link__btn"
+            className="home__section__buttons__btn home__section__buttons__btn__primary"
             title="Let us support you"
             style={{ width: "fit-content", marginLeft: 0, display: "flex" }}
           >
             <span>Let us support you</span>
-            <div className="liquid"></div>
           </a>
         </div>
       </section>
-      <section className="aboutusbottom">
-        <img src={aboutusbottom} alt="aboutusbottom" />
-      </section>
+      <ContactSection on="about" />
       <section className=" mission__section">
         <div className="mission__section__left">
           <div className="mission__section__left__img">

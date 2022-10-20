@@ -4,7 +4,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useEffect } from "react";
 
-export function ContactSection() {
+export function ContactSection({ on }) {
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState("");
   const [company, setCompany] = useState("");
@@ -191,18 +191,28 @@ export function ContactSection() {
                       Subject
                     </div>
                     <div className="form__content__right__form__input">
-                      <select
-                        placeholder="Subject"
-                        onChange={handleCategoryChange}
-                      >
-                        <option value="Hire Professionals">
-                          Hire Professionals
-                        </option>
-                        <option value="Software development">
-                          Software development
-                        </option>
-                        <option value="Recuitment">Recuitment</option>
-                      </select>
+                      {on === "about" ? (
+                        <input
+                          type="text"
+                          name="Subject"
+                          id="Subject"
+                          placeholder=" Subject"
+                          onChange={handleCategoryChange}
+                        />
+                      ) : (
+                        <select
+                          placeholder="Subject"
+                          onChange={handleCategoryChange}
+                        >
+                          <option value="Hire Professionals">
+                            Hire Professionals
+                          </option>
+                          <option value="Software development">
+                            Software development
+                          </option>
+                          <option value="Recuitment">Recuitment</option>
+                        </select>
+                      )}
                     </div>
                     <div className="form__content__right__form__heading__error">
                       {categoryError}

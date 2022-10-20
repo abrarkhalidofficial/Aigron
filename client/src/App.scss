@@ -1218,10 +1218,16 @@ body::-webkit-scrollbar-track {
   align-items: center;
   position: relative;
   overflow: hidden;
+  height: 450px;
 }
 
-.footer__left__img img {
-  height: 380px;
+.footer__background {
+  height: 100% !important;
+}
+.footer__background img {
+  filter: grayscale(1);
+  width: 100%;
+  min-height: 100%;
 }
 .footer__content {
   display: flex;
@@ -1841,6 +1847,9 @@ body::-webkit-scrollbar-track {
   .footer__right__heading__and__tags {
     width: 40%;
   }
+  .footer {
+    height: 612px;
+  }
   .footer__background img {
     height: 612px;
     width: 100%;
@@ -1998,6 +2007,9 @@ body::-webkit-scrollbar-track {
   .footer__right__heading__and__tags {
     width: 50%;
   }
+  .footer {
+    height: 617px;
+  }
   .footer__background img {
     height: 617px;
   }
@@ -2150,6 +2162,9 @@ body::-webkit-scrollbar-track {
   .footer__right__input__button {
     display: flex;
     padding-bottom: 4em;
+  }
+  .footer {
+    height: 1007px;
   }
   .footer__background {
     display: none;
