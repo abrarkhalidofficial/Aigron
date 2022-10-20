@@ -1,7 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import careerimg from "../assets/career.png";
 import carrescontentright from "../assets/career-content-right.png";
 
 export default function Career() {
+  const navigate = useNavigate();
   return (
     <>
       <section className="Career__page">
@@ -19,7 +21,18 @@ export default function Career() {
             Get in touch for our latest job openings.
           </div>
           <div className="Career__page__content__left__button">
-            <button>Contact Us</button>
+            <button
+              onClick={() => {
+                navigate("/");
+                setTimeout(() => {
+                  document
+                    .getElementById("contact")
+                    .scrollIntoView({ behavior: "smooth" });
+                }, 1000);
+              }}
+            >
+              Contact Us
+            </button>
           </div>
         </div>
         <div className="Career__page__content__right">
