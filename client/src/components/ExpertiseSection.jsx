@@ -2,13 +2,13 @@ import expertisesection from "../assets/expertise-background.png";
 
 export function ExpertiseSection() {
   return (
-    <section className="expertise">
+    <section className="expertise" id="expertise">
       <div className="expertise__img">
         <img src={expertisesection} alt="expertisesection" />
       </div>
       <div className="expertise__heading">Expertise</div>
       <div className="expertise__content">
-        <div className="expertise__content__card">
+        <a href="#contact" className="expertise__content__card">
           <div className="expertise__content__card__svg">
             <svg
               width="71"
@@ -60,8 +60,8 @@ export function ExpertiseSection() {
             processes, optimizing sales, enhancing marketing efforts, engaging
             with your customers.
           </div>
-        </div>
-        <div className="expertise__content__card">
+        </a>
+        <a href="#contact" className="expertise__content__card">
           <div className="expertise__content__card__svg">
             <svg
               width="70"
@@ -121,8 +121,8 @@ export function ExpertiseSection() {
             Analytics solutions powered by AI. Contact us to explore best Data
             solutions.
           </div>
-        </div>
-        <div className="expertise__content__card">
+        </a>
+        <a href="#contact" className="expertise__content__card">
           <div className="expertise__content__card__svg">
             <svg
               width="88"
@@ -165,8 +165,8 @@ export function ExpertiseSection() {
             ongoing management to keep your company protected. Get in touch to
             explore your best E-Security solutions.
           </div>
-        </div>
-        <div className="expertise__content__card">
+        </a>
+        <a href="#contact" className="expertise__content__card">
           <div className="expertise__content__card__svg">
             <svg
               width="70"
@@ -216,8 +216,8 @@ export function ExpertiseSection() {
             information, control, evaluate and manage your energy consumption.
             Get in touch to explore your possible E-Energy solutions
           </div>
-        </div>
-        <div className="expertise__content__card">
+        </a>
+        <a href="#contact" className="expertise__content__card">
           <div className="expertise__content__card__svg">
             <svg
               width="60"
@@ -284,7 +284,7 @@ export function ExpertiseSection() {
             tech. Aigron experts are experienced with bringing the idea to
             virtual reality. Get in touch to explore your ideas and applications
           </div>
-        </div>
+        </a>
       </div>
     </section>
   );

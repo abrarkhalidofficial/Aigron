@@ -296,7 +296,7 @@ export default function Header() {
                       />
                     </svg>
                   }
-                  title="  Software Development"
+                  title="Software Development"
                   info="Partner with us to take the process of Al and Data development off your hands."
                 />
                 <HeaderOverlayEntry
@@ -387,7 +387,7 @@ export default function Header() {
                   onClick={() => {
                     setIsExperties(false);
                     document
-                      .getElementById("contact")
+                      .getElementById("expertise")
                       .scrollIntoView({ behavior: "smooth" });
                   }}
                   icon={
@@ -418,7 +418,7 @@ export default function Header() {
                   onClick={() => {
                     setIsExperties(false);
                     document
-                      .getElementById("contact")
+                      .getElementById("expertise")
                       .scrollIntoView({ behavior: "smooth" });
                   }}
                   small
@@ -458,7 +458,7 @@ export default function Header() {
                   onClick={() => {
                     setIsExperties(false);
                     document
-                      .getElementById("contact")
+                      .getElementById("expertise")
                       .scrollIntoView({ behavior: "smooth" });
                   }}
                   small
@@ -494,7 +494,7 @@ export default function Header() {
                   onClick={() => {
                     setIsExperties(false);
                     document
-                      .getElementById("contact")
+                      .getElementById("expertise")
                       .scrollIntoView({ behavior: "smooth" });
                   }}
                   small
@@ -522,7 +522,7 @@ export default function Header() {
                   onClick={() => {
                     setIsExperties(false);
                     document
-                      .getElementById("contact")
+                      .getElementById("expertise")
                       .scrollIntoView({ behavior: "smooth" });
                   }}
                   small
