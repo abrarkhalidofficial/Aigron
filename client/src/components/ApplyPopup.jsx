@@ -42,11 +42,11 @@ export default function ApplyPopup({ onClose }) {
     } else {
       axios.post("https://aigron-production.up.railway.app/api/career", {
         name,
-        Sirname,
+        sirname: Sirname,
         email,
         phone,
-        LinkedIn,
-        Motivatoin,
+        linkedIn: LinkedIn,
+        motivatoin: Motivatoin,
       });
       setTimeout(() => {
         setSuccess(true);
