@@ -3,7 +3,7 @@ import officesvg from "../assets/officesome.svg";
 export function OfficeSection() {
   return (
     <section className="office">
-      <div className="office__content__heading">Our Offices</div>
+      <div className="office__content__heading">Offices</div>
       <div className="office__content">
         <div className="office__content__svg">
           <img src={officesvg} alt="some svg" />

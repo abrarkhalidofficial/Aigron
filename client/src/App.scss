@@ -541,20 +541,58 @@ body::-webkit-scrollbar-track {
   -o-object-fit: contain;
   object-fit: contain;
 }
-.idea {
-  width: 100%;
-  margin: 0 auto;
-  max-width: 1366px;
-  position: relative;
-  padding-top: 6em;
-  padding-bottom: 6em;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+.idea__section {
   display: flex;
-  overflow: hidden;
+  align-items: center;
+  min-height: 400px;
+  background: url("./assets/idea.webp"), no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 7em 0em;
+  position: relative;
+}
+.idea__section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    #ffffff,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.4),
+    #ffffff
+  );
+}
+.idea__section__content {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  margin: 0em auto;
+  z-index: 1;
+  position: relative;
+  padding: 0em 2em;
+}
+.idea__section__left {
+  width: 50%;
+  margin-right: 2em;
+  display: flex;
+  align-items: center;
+}
+.idea__section__left__icon {
+  margin-right: 2em;
+}
+.idea__section__left__heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4365c3;
+  width: 100%;
+  max-width: 400px;
+}
+.idea__section__right {
+  width: 50%;
 }
 .contact__form__btn {
   display: -webkit-box;
@@ -569,7 +607,8 @@ body::-webkit-scrollbar-track {
 .idea__content {
   position: absolute;
   top: 0%;
-  left: 5%;
+  max-width: 1440px;
+  left: calc(50% - 720px);
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -652,9 +691,6 @@ body::-webkit-scrollbar-track {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   position: absolute;
   padding: 0em 2em;
   top: 16%;
@@ -682,9 +718,6 @@ body::-webkit-scrollbar-track {
   background-color: #3bba9c;
   fill: #000;
   color: #fff;
-  -webkit-transform: scaleY(1.05);
-  -ms-transform: scaleY(1.05);
-  transform: scaleY(1.05);
 }
 .services__card:hover::after {
   background-color: rgb(59, 186, 156, 0.5);
@@ -1899,6 +1932,12 @@ body::-webkit-scrollbar-track {
 .our__team__right__img img {
   height: 300px;
 }
+@media (max-width: 1440px) {
+  .idea__content {
+    left: 0px;
+    width: 100%;
+  }
+}
 @media (max-width: 1366px) {
   .services___Content {
     left: 0px;
@@ -2085,6 +2124,31 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 1000px) {
+  .idea__section {
+    padding: 4em 0em;
+    margin: 2em 0em;
+  }
+  .idea__section__content {
+    flex-direction: column;
+  }
+  .idea__section__left {
+    flex-direction: column;
+    margin-right: 0em;
+  }
+  .idea__section__left__icon {
+    margin-right: 0em;
+    margin-bottom: 1em;
+  }
+  .idea__section__left__heading {
+    text-align: center;
+    margin-bottom: 0.5em;
+    max-width: 700px;
+  }
+  .idea__section__right {
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+  }
   .mission__section__right__heading {
     font-size: 30px;
   }
@@ -2222,6 +2286,13 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 800px) {
+  .idea__section__left {
+    width: 100%;
+  }
+  .idea__section__left__heading {
+    font-size: 25px;
+    max-width: 100%;
+  }
   .our__team__cards__card {
     width: 40%;
   }
