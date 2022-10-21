@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { X } from "react-feather";
 import PhoneInput from "react-phone-number-input";
+import axios from "axios";
 
 export default function ApplyPopup({ onClose }) {
   useEffect(() => {
@@ -26,6 +27,9 @@ export default function ApplyPopup({ onClose }) {
   useEffect(() => {
     setTimeout(() => {
       setSuccess(false);
+      if (success) {
+        onClose(false);
+      }
     }, 3000);
   }, [success]);
 
@@ -45,7 +49,7 @@ export default function ApplyPopup({ onClose }) {
         sirname: Sirname,
         email,
         phone,
-        linkedIn: LinkedIn,
+        linkedin: LinkedIn,
         motivation: Motivatoin,
       });
       setTimeout(() => {
@@ -57,7 +61,6 @@ export default function ApplyPopup({ onClose }) {
         setLinkedIn("");
         setMotivatoin("");
         console.log("submitted");
-        onClose(false);
       }, 1000);
     }
   };
