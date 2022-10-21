@@ -46,7 +46,7 @@ export default function ApplyPopup({ onClose }) {
         email,
         phone,
         linkedIn: LinkedIn,
-        motivatoin: Motivatoin,
+        motivation: Motivatoin,
       });
       setTimeout(() => {
         setSuccess(true);
