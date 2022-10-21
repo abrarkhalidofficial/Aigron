@@ -21,7 +21,14 @@ app.get("/", (req, res) => res.status(200).send("Welcome to Aigron api"));
 app.post("/api/contact", (req, res) => {
   console.log(req.body);
   if (req.body) {
-    mailer("Contact Form", req.body);
+    mailer("Contact Form", req.body, "contact");
+  }
+});
+
+app.post("/api/career", (req, res) => {
+  console.log(req.body);
+  if (req.body) {
+    mailer("Career Submission", req.body, "career");
   }
 });
 

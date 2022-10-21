@@ -1,9 +1,7 @@
-import { useNavigate } from "react-router-dom";
 import careerimg from "../assets/career.png";
 import carrescontentright from "../assets/career-content-right.png";
 
-export default function Career() {
-  const navigate = useNavigate();
+export default function Career({ setOpen }) {
   return (
     <>
       <section className="Career__page">
@@ -23,15 +21,10 @@ export default function Career() {
           <div className="Career__page__content__left__button">
             <button
               onClick={() => {
-                navigate("/");
-                setTimeout(() => {
-                  document
-                    .getElementById("contact")
-                    .scrollIntoView({ behavior: "smooth" });
-                }, 1000);
+                setOpen(true);
               }}
             >
-              Contact Us
+              Apply
             </button>
           </div>
         </div>

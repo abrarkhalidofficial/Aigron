@@ -1,13 +1,9 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export function HeaderOverlayEntry({ icon, info, title, small, to, onClick }) {
   return to ? (
-    <NavLink
-      to={to}
-      className="header__content__overlay__entry"
-      onClick={onClick}
-    >
+    <Link to={to} className="header__content__overlay__entry" onClick={onClick}>
       <div className="header__content__overlay__entry__icon">{icon}</div>
       <div
         className="header__content__overlay__entry__heading"
@@ -16,7 +12,7 @@ export function HeaderOverlayEntry({ icon, info, title, small, to, onClick }) {
         {title}
       </div>
       <div className="header__content__overlay__entry__info">{info}</div>
-    </NavLink>
+    </Link>
   ) : (
     <Link to="/" className="header__content__overlay__entry" onClick={onClick}>
       <div className="header__content__overlay__entry__icon">{icon}</div>

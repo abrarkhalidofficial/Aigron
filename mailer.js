@@ -2,7 +2,7 @@ const path = require("path");
 const nodemailer = require("nodemailer");
 const hbs = require("nodemailer-express-handlebars");
 
-async function mailer(subject, data) {
+async function mailer(subject, data, template) {
   let transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
@@ -28,7 +28,7 @@ async function mailer(subject, data) {
     from: "mehfoozijaz786@gmail.com",
     to: ["ceo@dsmeglobal.com", "info@aigron.com", "mehfoozijaz786@gmail.com"],
     subject: subject,
-    template: "contact",
+    template: template,
     context: data,
   };
 

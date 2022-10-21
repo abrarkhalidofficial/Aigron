@@ -8,15 +8,19 @@ import Career from "./screens/Career";
 
 import "./App.scss";
 import "react-phone-number-input/style.css";
+import ApplyPopup from "./components/ApplyPopup";
+import { useState } from "react";
 
 function App() {
+  const [open, setOpen] = useState(false);
   return (
     <BrowserRouter>
+      {open && <ApplyPopup onClose={setOpen} />}
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/career" element={<Career />} />
+        <Route path="/career" element={<Career setOpen={setOpen} />} />
       </Routes>
       <Footer />
     </BrowserRouter>
