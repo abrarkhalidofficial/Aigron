@@ -4,7 +4,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useEffect } from "react";
 
-export function ContactSection({ on }) {
+export function ContactSection({ on, defaultSubject }) {
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState("");
   const [company, setCompany] = useState("");
@@ -110,7 +110,7 @@ export function ContactSection({ on }) {
       </div>
       <div className="form__content">
         <div className="form__content__left">
-          <div className="form__content__heading">Get in Touch</div>
+          <div className="form__content__heading">Get in touch</div>
         </div>
         <div className="form__content__right">
           <form
@@ -204,13 +204,24 @@ export function ContactSection({ on }) {
                           placeholder="Subject"
                           onChange={handleCategoryChange}
                         >
-                          <option value="Hire Professionals">
+                          <option
+                            value="Hire Professionals"
+                            selected={defaultSubject === "Hire Professionals"}
+                          >
                             Hire Professionals
                           </option>
-                          <option value="Software development">
+                          <option
+                            value="Software development"
+                            selected={defaultSubject === "Software development"}
+                          >
                             Software development
                           </option>
-                          <option value="Recuitment">Recuitment</option>
+                          <option
+                            value="Recruitment"
+                            selected={defaultSubject === "Recruitment"}
+                          >
+                            Recruitment
+                          </option>
                         </select>
                       )}
                     </div>
@@ -230,7 +241,7 @@ export function ContactSection({ on }) {
                         rows="6"
                         name="text"
                         id="text"
-                        placeholder=" Give Some Details About Your Project"
+                        placeholder=" Give some details about your project"
                         onChange={handleMessageChange}
                       ></textarea>
                     </div>

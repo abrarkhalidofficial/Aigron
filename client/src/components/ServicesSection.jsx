@@ -1,6 +1,6 @@
 import servicesbackground from "../assets/services-background.png";
 
-export function ServicesSection() {
+export function ServicesSection({ setDefaultSubject }) {
   return (
     <section className="services">
       <div className="services__heading">Services</div>
@@ -86,10 +86,16 @@ export function ServicesSection() {
             <div className="services__card__info__two">
               Aigron offices are located worldwide from where our AI and Data
               professionals can support you.
-              <a href="#contact" className="services__card__info__two__btn">
-                Hire your professional
-              </a>
             </div>
+            <a
+              href="#contact"
+              className="services__card__info__two__btn"
+              onClick={() => {
+                setDefaultSubject("Hire Professionals");
+              }}
+            >
+              Hire your professional
+            </a>
           </div>
         </div>
         <div className="services__card">
@@ -127,10 +133,16 @@ export function ServicesSection() {
               Aigron has professionals and project managers with different
               expertise to take the process of AI and Data projects off your
               hands.
-              <a href="#contact" className="services__card__info__two__btn">
-                Get an inquiry
-              </a>
             </div>
+            <a
+              href="#contact"
+              className="services__card__info__two__btn"
+              onClick={() => {
+                setDefaultSubject("Software development");
+              }}
+            >
+              Get an inquiry
+            </a>
           </div>
         </div>
         <div className="services__card">
@@ -207,10 +219,16 @@ export function ServicesSection() {
             <div className="services__card__info__two">
               With our Recruitment services we can find you the right candidate
               from our wide network of professionals.
-              <a href="#contact" className="services__card__info__two__btn">
-                Recruit now
-              </a>
             </div>
+            <a
+              href="#contact"
+              className="services__card__info__two__btn"
+              onClick={() => {
+                setDefaultSubject("Recruitment");
+              }}
+            >
+              Recruit now
+            </a>
           </div>
         </div>
       </div>

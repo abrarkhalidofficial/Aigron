@@ -1,4 +1,4 @@
-import Ideasection from "../assets/idea.png";
+import Ideasection from "../assets/idea.webp";
 import Idealogo from "../assets/idea-logo.png";
 
 export function IdeaSection() {

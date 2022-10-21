@@ -117,9 +117,9 @@ export function ExpertiseSection() {
           <div className="expertise__content__card__heading">Data</div>
           <div className="expertise__content__card__title">
             Aigron experts are experienced in optimizing operations, mitigating
-            risks and turning your data into revenues by applying Data Science
-            and Data Analytics solutions powered by AI. Contact us to explore
-            your best Data solutions.
+            risks and turning your data into revenues by applying Data Science &
+            Analytics solutions powered by AI. Contact us to explore best Data
+            solutions.
           </div>
         </div>
         <div className="expertise__content__card">
@@ -280,10 +280,9 @@ export function ExpertiseSection() {
           </div>
           <div className="expertise__content__card__heading">VR/AR</div>
           <div className="expertise__content__card__title">
-            Enhance your designing process, product presentation and customer
-            support with AR/VR technology. Aigron experts are experienced with
-            bringing the idea to virtual reality. Get in touch to explore your
-            possibilities regarding the application.
+            Enhance your designing process, and product presentation with AR/VR
+            tech. Aigron experts are experienced with bringing the idea to
+            virtual reality. Get in touch to explore your ideas and applications
           </div>
         </div>
       </div>
